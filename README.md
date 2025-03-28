@@ -12,8 +12,8 @@ Whether you are a student, professional writer, or casual user, the Stylish Curs
 ## Features
 
 - 🎨 **16 Gradients**: Choose from 16 different gradient color schemes to customize your cursor.
-- ⏳ **Remove Caret Blink**: Eliminate the blinking effect of the caret for a smoother writing experience.
-- 🖋️ **Set Caret Width**: Adjust the caret width to your preferred size for better visibility.
+- ⏳ **Caret Blink**: Eliminate the blinking effect of the caret for a smoother writing experience.
+- 🖋️ **Caret Width**: Adjust the caret width to your preferred size for better visibility.
 
 ## How to Use the Extension
 
