@@ -1,7 +1,9 @@
 # Stylish Cursor for Google Docs™
 
-![Stylish Cursor](https://lh3.googleusercontent.com/3LDA7OjYPdPmZ8lFCt9VVHDflCTYNmT8HddEg8CCvoGweSHUZ529jH21v7mzTxMzQVIADzi2qlr2rHMkxf3W-FI-WQc=s1280-w1280-h800)
-![Stylish Cursor](https://lh3.googleusercontent.com/uEQPenDYtbEueNWHhPJFCegkF-aZFBwBQQGEJUzULjNtPxV71Gq3mwpitIWpDpJec1j9Ub1Z_pisgUXFhmctEjijQQ=s1280-w1280-h800)
+<div style="display: flex; align-items: center;">
+  <img src="https://lh3.googleusercontent.com/3LDA7OjYPdPmZ8lFCt9VVHDflCTYNmT8HddEg8CCvoGweSHUZ529jH21v7mzTxMzQVIADzi2qlr2rHMkxf3W-FI-WQc=s1280-w1280-h800" alt="Stylish Cursor 1" style="margin-right: 10px; width: 300px;">
+  <img src="https://lh3.googleusercontent.com/uEQPenDYtbEueNWHhPJFCegkF-aZFBwBQQGEJUzULjNtPxV71Gq3mwpitIWpDpJec1j9Ub1Z_pisgUXFhmctEjijQQ=s1280-w1280-h800" alt="Stylish Cursor 2" style="width: 300px;">
+</div>
 
 Swap the default cursor with a sleek and animated caret!
 
