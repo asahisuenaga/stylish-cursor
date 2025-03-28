@@ -1,0 +1,35 @@
+{
+    "extension_name": {
+      "message": "Стильный курсор - Пользовательский курсор для Google Docs"
+    },
+    "extension_description": {
+      "message": "Замените стандартный курсор на элегантный и анимированный карет!"
+    },
+    "title": { "message": "Стильный Курсор" },
+    "caretWidthLabel": { "message": "Ширина" },
+    "removeBlinkLabel": { "message": "Мигание" },
+    "trueOption": { "message": "Включено" },
+    "falseOption": { "message": "Выключено" },
+    "gradientLabel": { "message": "Градиент" },
+    "infoMessage": { "message": "Если не работает, перезагрузите Google Docs." },
+    "openDocsButton": { "message": "Открыть Google Docs" },
+    "saveButton": { "message": "Сохранить и Выйти" },
+    "maker": { "message": "Создано для всех Асахи Суэнагой" },
+    "gradientDynamic": { "message": "Динамический" },
+    "gradientRainbow": { "message": "Радуга" },
+    "gradientRed": { "message": "Красный" },
+    "gradientSnow": { "message": "Снег" },
+    "gradientOcean": { "message": "Океан" },
+    "gradientForest": { "message": "Лес" },
+    "gradientFire": { "message": "Огонь" },
+    "gradientIce": { "message": "Лёд" },
+    "gradientNeon": { "message": "Неон" },
+    "gradientGold": { "message": "Золото" },
+    "gradientSilver": { "message": "Серебро" },
+    "gradientTwilight": { "message": "Сумерки" },
+    "gradientVintage": { "message": "Винтаж" },
+    "gradientTropical": { "message": "Тропики" },
+    "gradientFloral": { "message": "Цветочный" },
+    "gradientCandy": { "message": "Конфетный" },
+    "notInDocsMessage": { "message": "Вы не в Google Docs." }
+}

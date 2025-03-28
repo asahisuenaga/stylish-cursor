@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elegant Caret</title>
+
+  <!-- Include Inter font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS for styling -->
+  <style>
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 14px;
+  box-sizing: border-box;
+  background-color: #f5f7fb;
+  color: #333;
+  text-align: center;
+  min-width: 400px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.header img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+  color: #4A4A4A;
+}
+
+/* Options Container */
+.options-container label,
+label {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  color: #555;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+select, input[type="text"], button {
+  appearance: none;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  width: 50%;
+}
+
+select:hover, input[type="text"]:hover, button:hover {
+  background-color: #e6e6e6;
+}
+
+select:focus, input[type="text"]:focus, button:focus {
+  outline: none;
+  border-color: #4A90E2;
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  background-color: #4A90E2;
+  color: #fff;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+button:hover {
+  background: none;
+}
+
+.save-button, .redirect-button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 30px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: transparent;
+  color: #333;
+  border: 2px solid #333;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.save-button:hover, .redirect-button:hover {
+  color: #4285F4;
+  border-color: #4285F4;
+  background-color: transparent;
+}
+
+/* Feedback & Show Love Buttons */
+.maker-button{
+  width: 100%;
+  border: none;
+  background: transparent;
+  font-size: 12px;
+  color: #666;
+  cursor: pointer;
+}
+
+.maker-button:hover {
+  text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+  }
+
+  .header h1 {
+    color: #e0e0e0;
+  }
+
+  .options-container label,
+  label {
+    color: #d0d0d0;
+  }
+
+  select, input[type="text"], button {
+    background-color: #333;
+    border: 1px solid #555;
+    color: #f5f5f5;
+  }
+
+  select:hover, input[type="text"]:hover, button:hover {
+    background-color: #444;
+  }
+
+  select:focus, input[type="text"]:focus, button:focus {
+    border-color: #4285F4;
+    box-shadow: 0 0 0 3px rgba(66, 133, 244, 0.5);
+  }
+
+  button {
+    background-color: #4285F4;
+    color: #fff;
+  }
+
+  button:hover {
+    background-color: #357ae8;
+  }
+
+  .save-button, .redirect-button {
+    background-color: transparent;
+    color: #f5f5f5;
+    border: 2px solid #f5f5f5;
+  }
+
+  .save-button:hover, .redirect-button:hover {
+    color: #4285F4;
+    border-color: #4285F4;
+    background-color: transparent;
+  }
+
+  .maker-button {
+    color: #bbb;
+  }
+
+  .maker-button:hover {
+    background-color: transparent;
+  }
+}
+  </style>
+</head>
+<body>
+  <!-- Header with icon and title -->
+  <div class="header">
+    <img src="icon128.png" alt="Icon">
+    <h1 id="title"></h1>
+  </div>
+
+  <!-- Content with caret width and checkbox options -->
+  <div class="content-container">
+    <div class="options-container" id="optionsContainer">
+      <label for="caretWidth">
+        <span id="caretWidthLabel"></span>
+        <select id="caretWidth">
+          <option value="2">2 px</option>
+          <option value="4">4 px</option>
+          <option value="6">6 px</option>
+          <option value="8">8 px</option>
+        </select>
+      </label>
+
+    <label for="removeBlinkSelect">
+      <span id="removeBlinkLabel"></span>
+      <select id="removeBlinkSelect">
+        <option value="true" data-i18n="trueOption">Yes</option>
+        <option value="false" data-i18n="falseOption">No</option>
+      </select>
+    </label>
+
+    <label for="gradientStyle">
+      <span id="gradientLabel"></span>
+      <select id="gradientStyle">
+         <option value="dynamic"  data-i18n="gradientDynamic">Dynamic</option>
+         <option value="rainbow" data-i18n="gradientRainbow">Rainbow</option>
+         <option value="red" data-i18n="gradientRed">Red</option>
+        <option value="snow" data-i18n="gradientSnow">Snow</option>
+        <option value="ocean" data-i18n="gradientOcean">Ocean</option>
+        <option value="forest" data-i18n="gradientForest">Forest</option>
+        <option value="fire" data-i18n="gradientFire">Fire</option>
+        <option value="ice" data-i18n="gradientIce">Ice</option>
+        <option value="neon" data-i18n="gradientNeon">Neon</option>
+        <option value="gold" data-i18n="gradientGold">Gold</option>
+        <option value="silver" data-i18n="gradientSilver">Silver</option>
+        <option value="twilight" data-i18n="gradientTwilight">Twilight</option>
+        <option value="vintage" data-i18n="gradientVintage">Vintage</option>
+        <option value="tropical" data-i18n="gradientTropical">Tropical</option>
+        <option value="floral" data-i18n="gradientFloral">Floral</option>
+        <option value="candy" data-i18n="gradientCandy">Candy</option>
+      </select>
+    </label>
+
+  </div>
+
+    <!-- Info message -->
+    <div class="info-message" id="infoMessage">
+      <p id="infoMessageText"></p>
+    </div>
+
+    <!-- Redirect message and button for Google Docs -->
+    <div class="redirect-container" id="redirectContainer">
+      <button class="redirect-button" id="redirectButton">
+        <span id="openDocsButton"></span>
+      </button>
+    </div>
+  </div>
+
+<!-- Action buttons: Save, Show Some Love, and Feedback -->
+<div class="action-buttons">
+  <button class="save-button" id="saveButton"><span id="saveButton"></span></button>
+  <button class="maker-button" id="maker"><span id="maker"></span></button>
+</div>
+  <script src="popup.js"></script>
+</body>
+</html>
