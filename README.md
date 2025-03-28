@@ -1,5 +1,8 @@
 # Stylish Cursor for Google Docs™
 
+![Stylish Cursor](https://lh3.googleusercontent.com/3LDA7OjYPdPmZ8lFCt9VVHDflCTYNmT8HddEg8CCvoGweSHUZ529jH21v7mzTxMzQVIADzi2qlr2rHMkxf3W-FI-WQc=s1280-w1280-h800)
+![Stylish Cursor](https://lh3.googleusercontent.com/uEQPenDYtbEueNWHhPJFCegkF-aZFBwBQQGEJUzULjNtPxV71Gq3mwpitIWpDpJec1j9Ub1Z_pisgUXFhmctEjijQQ=s1280-w1280-h800)
+
 Swap the default cursor with a sleek and animated caret!
 
 Whether you are a student, professional writer, or casual user, the Stylish Cursor boosts your writing experience by making text selection more visually appealing in Google Docs™. It not only adds a splash of color to your documents but also helps reduce eye strain during long editing sessions. By making your cursor stand out, you can improve your focus and productivity while working on your projects.
