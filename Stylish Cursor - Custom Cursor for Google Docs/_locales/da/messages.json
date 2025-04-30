@@ -1,0 +1,35 @@
+{
+    "extension_name": {
+      "message": "Stylish Cursor - Brugerdefineret cursor til Google Docs"
+    },
+    "extension_description": {
+      "message": "Erstat standard cursoren med en stilfuld og animeret markør!"
+    },
+    "title": { "message": "Stylish Cursor" },
+    "caretWidthLabel": { "message": "Bredde" },
+    "removeBlinkLabel": { "message": "Blink" },
+    "trueOption": { "message": "Tændt" },
+    "falseOption": { "message": "Slukket" },
+    "gradientLabel": { "message": "Gradiant" },
+    "infoMessage": { "message": "Hvis det ikke virker, genindlæs Google Docs." },
+    "openDocsButton": { "message": "Åbn Google Docs" },
+    "saveButton": { "message": "Gem & Luk" },
+    "maker": { "message": "Lavede af Asahi Suenaga" },
+    "gradientDynamic": { "message": "Dynamisk" },
+    "gradientRainbow": { "message": "Regnbue" },
+    "gradientRed": { "message": "Rød" },
+    "gradientSnow": { "message": "Sne" },
+    "gradientOcean": { "message": "Ocean" },
+    "gradientForest": { "message": "Skov" },
+    "gradientFire": { "message": "Ild" },
+    "gradientIce": { "message": "Is" },
+    "gradientNeon": { "message": "Neon" },
+    "gradientGold": { "message": "Guld" },
+    "gradientSilver": { "message": "Sølv" },
+    "gradientTwilight": { "message": "Skumring" },
+    "gradientVintage": { "message": "Vintage" },
+    "gradientTropical": { "message": "Tropisk" },
+    "gradientFloral": { "message": "Blomster" },
+    "gradientCandy": { "message": "Slik" },
+    "notInDocsMessage": { "message": "Du er ikke i Google Docs." }
+}

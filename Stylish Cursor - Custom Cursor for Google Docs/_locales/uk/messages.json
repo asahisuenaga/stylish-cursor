@@ -1,0 +1,35 @@
+{
+  "extension_name": {
+    "message": "Stylish Cursor - Користувацький курсор для Google Docs"
+  },
+  "extension_description": {
+    "message": "Замість стандартного курсора використовуйте стильний та анімований!"
+  },
+  "title": { "message": "Stylish Cursor" },
+  "caretWidthLabel": { "message": "Ширина" },
+  "removeBlinkLabel": { "message": "Мигання" },
+  "trueOption": { "message": "Увімкнено" },
+  "falseOption": { "message": "Вимкнено" },
+  "gradientLabel": { "message": "Градієнт" },
+  "infoMessage": { "message": "Якщо це не працює, перезавантажте Google Docs." },
+  "openDocsButton": { "message": "Відкрити Google Docs" },
+  "saveButton": { "message": "Зберегти та вийти" },
+  "maker": { "message": "Створено Асахі Суенагою" },
+  "gradientDynamic": { "message": "Динамічний" },
+  "gradientRainbow": { "message": "Райдужний" },
+  "gradientRed": { "message": "Червоний" },
+  "gradientSnow": { "message": "Сніг" },
+  "gradientOcean": { "message": "Океан" },
+  "gradientForest": { "message": "Ліс" },
+  "gradientFire": { "message": "Вогонь" },
+  "gradientIce": { "message": "Лід" },
+  "gradientNeon": { "message": "Неон" },
+  "gradientGold": { "message": "Золото" },
+  "gradientSilver": { "message": "Срібло" },
+  "gradientTwilight": { "message": "Сутінки" },
+  "gradientVintage": { "message": "Вінтаж" },
+  "gradientTropical": { "message": "Тропічний" },
+  "gradientFloral": { "message": "Квітковий" },
+  "gradientCandy": { "message": "Цукерка" },
+  "notInDocsMessage": { "message": "Ви не в Google Docs." }
+}

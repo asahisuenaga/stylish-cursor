@@ -1,0 +1,35 @@
+{
+    "extension_name": {
+      "message": "Stilingas kursorius - Pasirinktinis kursorius Google Docs"
+    },
+    "extension_description": {
+      "message": "Pakeiskite numatytąjį kursorių į elegantišką ir animuotą karetą!"
+    },
+    "title": { "message": "Stilingas kursorius" },
+    "caretWidthLabel": { "message": "Plotis" },
+    "removeBlinkLabel": { "message": "Mirksėjimas" },
+    "trueOption": { "message": "Įjungta" },
+    "falseOption": { "message": "Išjungta" },
+    "gradientLabel": { "message": "Gradientas" },
+    "infoMessage": { "message": "Jei neveikia, atnaujinkite Google Docs." },
+    "openDocsButton": { "message": "Atidaryti Google Docs" },
+    "saveButton": { "message": "Išsaugoti ir išeiti" },
+    "maker": { "message": "Sukūrė Asahi Suenaga" },
+    "gradientDynamic": { "message": "Dinaminis" },
+    "gradientRainbow": { "message": "Vaivorykštė" },
+    "gradientRed": { "message": "Raudona" },
+    "gradientSnow": { "message": "Sniegas" },
+    "gradientOcean": { "message": "Vandenynas" },
+    "gradientForest": { "message": "Miškas" },
+    "gradientFire": { "message": "Ugnis" },
+    "gradientIce": { "message": "Ledas" },
+    "gradientNeon": { "message": "Neonas" },
+    "gradientGold": { "message": "Auksas" },
+    "gradientSilver": { "message": "Sidabras" },
+    "gradientTwilight": { "message": "Pavakarys" },
+    "gradientVintage": { "message": "Senovinis" },
+    "gradientTropical": { "message": "Tropinis" },
+    "gradientFloral": { "message": "Gėlių" },
+    "gradientCandy": { "message": "Saldainiai" },
+    "notInDocsMessage": { "message": "Jūs nesate Google Docs." }
+}

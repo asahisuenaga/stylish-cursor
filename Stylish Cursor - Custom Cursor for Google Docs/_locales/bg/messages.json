@@ -1,0 +1,35 @@
+{
+  "extension_name": {
+    "message": "Стилен курсор - Персонализиран курсор за Google Docs"
+  },
+  "extension_description": {
+    "message": "Заменете стандартния курсор със стилен и анимиран курсор!"
+  },
+  "title": { "message": "Стилен курсор" },
+  "caretWidthLabel": { "message": "Ширина" },
+  "removeBlinkLabel": { "message": "Мигане" },
+  "trueOption": { "message": "Включено" },
+  "falseOption": { "message": "Изключено" },
+  "gradientLabel": { "message": "Градиент" },
+  "infoMessage": { "message": "Ако не работи, презаредете Google Docs." },
+  "openDocsButton": { "message": "Отвори Google Docs" },
+  "saveButton": { "message": "Запази и изход" },
+  "maker": { "message": "Създадено от Asahi Suenaga" },
+  "gradientDynamic": { "message": "Динамичен" },
+  "gradientRainbow": { "message": "Дъга" },
+  "gradientRed": { "message": "Червен" },
+  "gradientSnow": { "message": "Сняг" },
+  "gradientOcean": { "message": "Океан" },
+  "gradientForest": { "message": "Гора" },
+  "gradientFire": { "message": "Огън" },
+  "gradientIce": { "message": "Лед" },
+  "gradientNeon": { "message": "Неон" },
+  "gradientGold": { "message": "Злато" },
+  "gradientSilver": { "message": "Сребро" },
+  "gradientTwilight": { "message": "Зарево" },
+  "gradientVintage": { "message": "Ретро" },
+  "gradientTropical": { "message": "Тропически" },
+  "gradientFloral": { "message": "Цветен" },
+  "gradientCandy": { "message": "Бонбон" },
+  "notInDocsMessage": { "message": "Не сте в Google Docs." }
+}

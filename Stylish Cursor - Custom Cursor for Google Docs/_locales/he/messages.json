@@ -1,0 +1,35 @@
+{
+    "extension_name": {
+      "message": "סמן אופנתי - סמן מותאם אישית עבור Google Docs"
+    },
+    "extension_description": {
+      "message": "החלף את הסמן הבסיסי בסמן חלק ואנימטיבי!"
+    },
+    "title": { "message": "סמן אופנתי" },
+    "caretWidthLabel": { "message": "רוחב" },
+    "removeBlinkLabel": { "message": "הבהוב" },
+    "trueOption": { "message": "דולק" },
+    "falseOption": { "message": "כבוי" },
+    "gradientLabel": { "message": "גרדיאנט" },
+    "infoMessage": { "message": "אם זה לא עובד, טען מחדש את Google Docs." },
+    "openDocsButton": { "message": "פתח את Google Docs" },
+    "saveButton": { "message": "שמור וצא" },
+    "maker": { "message": "נוצר על ידי אסאהי סואנאגה" },
+    "gradientDynamic": { "message": "דינמי" },
+    "gradientRainbow": { "message": "קשת" },
+    "gradientRed": { "message": "אדום" },
+    "gradientSnow": { "message": "שלג" },
+    "gradientOcean": { "message": "אוקיינוס" },
+    "gradientForest": { "message": "יער" },
+    "gradientFire": { "message": "אש" },
+    "gradientIce": { "message": "קרח" },
+    "gradientNeon": { "message": "ניאון" },
+    "gradientGold": { "message": "זהב" },
+    "gradientSilver": { "message": "כסף" },
+    "gradientTwilight": { "message": "דמדומים" },
+    "gradientVintage": { "message": "ווינטג'" },
+    "gradientTropical": { "message": "טרופי" },
+    "gradientFloral": { "message": "פרחוני" },
+    "gradientCandy": { "message": "ממתק" },
+    "notInDocsMessage": { "message": "אתה לא נמצא ב-Google Docs." }
+}

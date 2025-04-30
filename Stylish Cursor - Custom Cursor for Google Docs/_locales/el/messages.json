@@ -1,0 +1,35 @@
+{
+    "extension_name": {
+      "message": "Stylish Cursor - Προσαρμοσμένος Δείκτης για το Google Docs"
+    },
+    "extension_description": {
+      "message": "Αντικαταστήστε τον προεπιλεγμένο δείκτη με έναν κομψό και κινούμενο δείκτη!"
+    },
+    "title": { "message": "Stylish Cursor" },
+    "caretWidthLabel": { "message": "Πλάτος" },
+    "removeBlinkLabel": { "message": "Αναβοσβήνει" },
+    "trueOption": { "message": "Ενεργό" },
+    "falseOption": { "message": "Ανενεργό" },
+    "gradientLabel": { "message": "Χρωματική Μετάβαση" },
+    "infoMessage": { "message": "Αν δεν λειτουργεί, ανανεώστε το Google Docs." },
+    "openDocsButton": { "message": "Άνοιγμα Google Docs" },
+    "saveButton": { "message": "Αποθήκευση & Έξοδος" },
+    "maker": { "message": "Φτιαγμένο από τον Asahi Suenaga" },
+    "gradientDynamic": { "message": "Δυναμικό" },
+    "gradientRainbow": { "message": "Ουράνιο Τόξο" },
+    "gradientRed": { "message": "Κόκκινο" },
+    "gradientSnow": { "message": "Χιόνι" },
+    "gradientOcean": { "message": "Ωκεανός" },
+    "gradientForest": { "message": "Δάσος" },
+    "gradientFire": { "message": "Φωτιά" },
+    "gradientIce": { "message": "Πάγος" },
+    "gradientNeon": { "message": "Νεόν" },
+    "gradientGold": { "message": "Χρυσό" },
+    "gradientSilver": { "message": "Ασημί" },
+    "gradientTwilight": { "message": "Δημιουργία Δυσοσμίας" },
+    "gradientVintage": { "message": "Ρετρό" },
+    "gradientTropical": { "message": "Τροπικό" },
+    "gradientFloral": { "message": "Ανθισμένο" },
+    "gradientCandy": { "message": "Καραμέλα" },
+    "notInDocsMessage": { "message": "Δεν είστε στο Google Docs." }
+}

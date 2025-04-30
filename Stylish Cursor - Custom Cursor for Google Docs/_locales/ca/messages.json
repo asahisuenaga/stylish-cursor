@@ -1,0 +1,35 @@
+{
+  "extension_name": {
+    "message": "Cursor Elegant - Cursor Personalitzat per a Google Docs"
+  },
+  "extension_description": {
+    "message": "Canvia el cursor per defecte per un cursor elegant i animat!"
+  },
+  "title": { "message": "Cursor Elegant" },
+  "caretWidthLabel": { "message": "Amplada" },
+  "removeBlinkLabel": { "message": "Parpelleig" },
+  "trueOption": { "message": "Activat" },
+  "falseOption": { "message": "Desactivat" },
+  "gradientLabel": { "message": "Gradient" },
+  "infoMessage": { "message": "Si no funciona, torna a carregar Google Docs." },
+  "openDocsButton": { "message": "Obre Google Docs" },
+  "saveButton": { "message": "Desa i Sortir" },
+  "maker": { "message": "Fet per Asahi Suenaga" },
+  "gradientDynamic": { "message": "Dinàmic" },
+  "gradientRainbow": { "message": "Arc de Sant Martí" },
+  "gradientRed": { "message": "Vermell" },
+  "gradientSnow": { "message": "Neu" },
+  "gradientOcean": { "message": "Oceà" },
+  "gradientForest": { "message": "Bosc" },
+  "gradientFire": { "message": "Foc" },
+  "gradientIce": { "message": "Gel" },
+  "gradientNeon": { "message": "Neó" },
+  "gradientGold": { "message": "Daurat" },
+  "gradientSilver": { "message": "Platejat" },
+  "gradientTwilight": { "message": "Vespre" },
+  "gradientVintage": { "message": "Vintage" },
+  "gradientTropical": { "message": "Tropical" },
+  "gradientFloral": { "message": "Floral" },
+  "gradientCandy": { "message": "Caramel" },
+  "notInDocsMessage": { "message": "No estàs a Google Docs." }
+}

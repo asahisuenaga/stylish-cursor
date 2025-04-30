@@ -1,0 +1,35 @@
+{
+  "extension_name": {
+    "message": "Tyylikäs Kurssori - Mukautettu Kurssori Google Docsille"
+  },
+  "extension_description": {
+    "message": "Vaihda oletuskurssori tyylikkääseen ja animoituun kursoriin!"
+  },
+  "title": { "message": "Tyylikäs Kurssori" },
+  "caretWidthLabel": { "message": "Leveys" },
+  "removeBlinkLabel": { "message": "Vilkkuminen" },
+  "trueOption": { "message": "Päällä" },
+  "falseOption": { "message": "Pois päältä" },
+  "gradientLabel": { "message": "Gradientti" },
+  "infoMessage": { "message": "Jos se ei toimi, lataa Google Docs uudelleen." },
+  "openDocsButton": { "message": "Avaa Google Docs" },
+  "saveButton": { "message": "Tallenna ja Poistu" },
+  "maker": { "message": "Valmistaja Asahi Suenaga" },
+  "gradientDynamic": { "message": "Dynaaminen" },
+  "gradientRainbow": { "message": "Sateenkaari" },
+  "gradientRed": { "message": "Punainen" },
+  "gradientSnow": { "message": "Lumi" },
+  "gradientOcean": { "message": "Meri" },
+  "gradientForest": { "message": "Metsä" },
+  "gradientFire": { "message": "Tuli" },
+  "gradientIce": { "message": "Jää" },
+  "gradientNeon": { "message": "Neon" },
+  "gradientGold": { "message": "Kulta" },
+  "gradientSilver": { "message": "Hopea" },
+  "gradientTwilight": { "message": "Hämärä" },
+  "gradientVintage": { "message": "Vintage" },
+  "gradientTropical": { "message": "Tropiikki" },
+  "gradientFloral": { "message": "Kukkainen" },
+  "gradientCandy": { "message": "Karkki" },
+  "notInDocsMessage": { "message": "Et ole Google Docsissa." }
+}

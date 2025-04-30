@@ -1,0 +1,35 @@
+{
+    "extension_name": {
+      "message": "مؤشر أنيق - مؤشر مخصص لجوجل دوكس"
+    },
+    "extension_description": {
+      "message": "استبدل المؤشر الافتراضي بمؤشر أنيق ومتحرك!"
+    },
+    "title": { "message": "مؤشر أنيق" },
+    "caretWidthLabel": { "message": "العرض" },
+    "removeBlinkLabel": { "message": "وميض" },
+    "trueOption": { "message": "تشغيل" },
+    "falseOption": { "message": "إيقاف" },
+    "gradientLabel": { "message": "تدرج الألوان" },
+    "infoMessage": { "message": "إذا لم يعمل، أعد تحميل جوجل دوكس." },
+    "openDocsButton": { "message": "افتح جوجل دوكس" },
+    "saveButton": { "message": "حفظ والخروج" },
+    "maker": { "message": "صنع بواسطة أساهي سوناجا" },
+    "gradientDynamic": { "message": "ديناميكي" },
+    "gradientRainbow": { "message": "قوس قزح" },
+    "gradientRed": { "message": "أحمر" },
+    "gradientSnow": { "message": "ثلج" },
+    "gradientOcean": { "message": "محيط" },
+    "gradientForest": { "message": "غابة" },
+    "gradientFire": { "message": "نار" },
+    "gradientIce": { "message": "ثلج" },
+    "gradientNeon": { "message": "نيون" },
+    "gradientGold": { "message": "ذهب" },
+    "gradientSilver": { "message": "فضة" },
+    "gradientTwilight": { "message": "غسق" },
+    "gradientVintage": { "message": "عتيق" },
+    "gradientTropical": { "message": "استوائي" },
+    "gradientFloral": { "message": "زهري" },
+    "gradientCandy": { "message": "حلوى" },
+    "notInDocsMessage": { "message": "أنت لست في جوجل دوكس." }
+}
