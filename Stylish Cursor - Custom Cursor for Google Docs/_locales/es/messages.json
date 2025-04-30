@@ -1,0 +1,35 @@
+{
+    "extension_name": {
+      "message": "Cursor Elegante - Cursor Personalizado para Google Docs"
+    },
+    "extension_description": {
+      "message": "¡Cambia el cursor predeterminado por un caret elegante y animado!"
+    },
+    "title": { "message": "Cursor Elegante" },
+    "caretWidthLabel": { "message": "Ancho" },
+    "removeBlinkLabel": { "message": "Parpadeo" },
+    "trueOption": { "message": "Activado" },
+    "falseOption": { "message": "Desactivado" },
+    "gradientLabel": { "message": "Gradiente" },
+    "infoMessage": { "message": "Si no funciona, recarga Google Docs." },
+    "openDocsButton": { "message": "Abrir Google Docs" },
+    "saveButton": { "message": "Guardar y Salir" },
+    "maker": { "message": "Hecho por Asahi Suenaga" },
+    "gradientDynamic": { "message": "Dinámico" },
+    "gradientRainbow": { "message": "Arcoíris" },
+    "gradientRed": { "message": "Rojo" },
+    "gradientSnow": { "message": "Nieve" },
+    "gradientOcean": { "message": "Océano" },
+    "gradientForest": { "message": "Bosque" },
+    "gradientFire": { "message": "Fuego" },
+    "gradientIce": { "message": "Hielo" },
+    "gradientNeon": { "message": "Neón" },
+    "gradientGold": { "message": "Oro" },
+    "gradientSilver": { "message": "Plata" },
+    "gradientTwilight": { "message": "Crepúsculo" },
+    "gradientVintage": { "message": "Vintage" },
+    "gradientTropical": { "message": "Tropical" },
+    "gradientFloral": { "message": "Floral" },
+    "gradientCandy": { "message": "Dulce" },
+    "notInDocsMessage": { "message": "No estás en Google Docs." }
+}
