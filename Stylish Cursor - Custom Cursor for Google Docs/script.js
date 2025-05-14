@@ -102,41 +102,6 @@ function applyBlinkRemoval() {
     });
 }
 
-// Updated initialize function to retrieve and apply gradient style on load
-function initialize() {
-    const cursor = document.getElementsByClassName("kix-cursor-caret")[0];
-    if (cursor) {
-        applyCaretWidth(cursor);         // Apply caret width from storage
-        applyBlinkRemoval();             // Apply blink removal from storage
-        monitorColorChange(cursor);      // Monitor color changes
-
-        // Apply the selected gradient style immediately upon initialization
-        chrome.storage.sync.get(['gradientStyle'], (result) => {
-            const gradientStyle = result.gradientStyle || 'dynamic';
-            applyGradientAnimation(cursor, gradientStyle);
-        });
-
-        // Listen for storage changes and apply new settings live
-        chrome.storage.onChanged.addListener((changes, area) => {
-            if (area === 'sync') {
-                if (changes.caretWidth) {
-                    const newWidth = changes.caretWidth.newValue || '2';
-                    cursor.style.width = `${newWidth}px`;
-                }
-                if (changes.removeBlink) {
-                    applyBlinkRemoval();
-                }
-                if (changes.gradientStyle) {
-                    const gradientStyle = changes.gradientStyle.newValue || 'dynamic';
-                    applyGradientAnimation(cursor, gradientStyle);
-                }
-            }
-        });
-    } else {
-        setTimeout(initialize, 500);     // Retry if cursor element is not found
-    }
-}
-
 // Listen for storage changes and apply new blink removal live
 chrome.storage.onChanged.addListener((changes, area) => {
     if (area === 'sync' && changes.removeBlink) {
