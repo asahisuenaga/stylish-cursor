@@ -28,16 +28,31 @@ Whether you are a student, professional writer, or casual user, the Stylish Curs
 1. [Download Stylish Cursor from the Chrome Web Store](https://chromewebstore.google.com/detail/stylish-cursor-custom-cur/nnmghknojpihdnofejbocdcnmhibkfdc).
 2. Click **Add to Chrome** and follow the prompts to install the extension.
 3. Once installed, pin the extension to your browser by clicking the **Extensions** icon (puzzle piece) in the top-right corner, then clicking the pin icon next to **Stylish Cursor**.
-4. The Stylish Cursor will be ready to use!
+4. Stylish Cursor will be ready to use!
 
-### Option 2: Manual Installation
+### Option 2: Install on Firefox (Waiting for Approval)
+
+1. [Download Stylish Cursor for Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish-cursor/) *(Link will work once published)*.
+2. Click **Add to Firefox** and confirm the installation when prompted.
+3. After installing, the Stylish Cursor icon will appear in your toolbar.
+4. The extension will now be active and ready to use on supported pages like Google Docs.
+
+### Option 3: Manual Installation (For Development)
+
+#### Chrome:
 
 1. Clone or download the repository to your local machine.
-2. Open Chrome and go to the extensions page (`chrome://extensions`).
+2. Open Chrome and go to `chrome://extensions`.
 3. Enable **Developer Mode** in the top right corner.
 4. Click **Load unpacked**, then select the folder where you have the extension files.
-5. Pin the extension to your browser by clicking the **Extensions** icon (puzzle piece) in the top-right corner, then clicking the pin icon next to **Stylish Cursor**.
-6. The Stylish Cursor extension should now be installed and active!
+5. Pin the extension to your browser by clicking the **Extensions** icon and selecting the pin icon next to **Stylish Cursor**.
+
+#### Firefox:
+
+1. Clone or download the repository to your local machine.
+2. Open Firefox and go to `about:debugging#/runtime/this-firefox`.
+3. Click **Load Temporary Add-on**, then select the `manifest.json` file from the extension folder.
+4. The extension will now appear in your toolbar for testing. *(Note: this temporary install is only active until Firefox is closed.)*
 
 ## Contributing
 
