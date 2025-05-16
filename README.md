@@ -30,7 +30,7 @@ Whether you are a student, professional writer, or casual user, the Stylish Curs
 3. Once installed, pin the extension to your browser by clicking the **Extensions** icon (puzzle piece) in the top-right corner, then clicking the pin icon next to **Stylish Cursor**.
 4. Stylish Cursor will be ready to use!
 
-### Option 2: Manual Installation (For Development)
+### Option 2: Manual Installation
 
 #### Chrome:
 
@@ -45,11 +45,3 @@ Whether you are a student, professional writer, or casual user, the Stylish Curs
 2. Open Firefox and go to `about:debugging#/runtime/this-firefox`.
 3. Click **Load Temporary Add-on**, then select the `manifest.json` file from the Firefox folder.
 4. The extension will now appear in your toolbar for testing. *(Note: this temporary install is only active until Firefox is closed.)*
-
-## Contributing
-
-We welcome contributions to make Stylish Cursor even better! If you have suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
