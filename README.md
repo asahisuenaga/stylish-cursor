@@ -34,7 +34,7 @@ Whether you are a student, professional writer, or casual user, the Stylish Curs
 
 #### Chrome:
 
-1. Clone or download the repository to your local machine.
+1. Clone or download the chrome.zip file to your local machine.
 2. Open Chrome and go to `chrome://extensions`.
 3. Enable **Developer Mode** in the top right corner.
 4. Click **Load unpacked**, then select the folder where you have the extension files.
@@ -42,7 +42,7 @@ Whether you are a student, professional writer, or casual user, the Stylish Curs
 
 #### Firefox:
 
-1. Clone or download the repository to your local machine.
+1. Clone or download the firefox.zip to your local machine.
 2. Open Firefox and go to `about:debugging#/runtime/this-firefox`.
 3. Click **Load Temporary Add-on**, then select the `manifest.json` file from the extension folder.
 4. The extension will now appear in your toolbar for testing. *(Note: this temporary install is only active until Firefox is closed.)*
