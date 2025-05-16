@@ -1,0 +1,35 @@
+{
+    "extension_name": {
+      "message": "Stilfull Muspekare - Anpassad Muspekare för Google Docs"
+    },
+    "extension_description": {
+      "message": "Byt ut standardpekaren mot en snygg och animerad markör!"
+    },
+    "title": { "message": "Stilfull Muspekare" },
+    "caretWidthLabel": { "message": "Bredd" },
+    "removeBlinkLabel": { "message": "Blinka" },
+    "trueOption": { "message": "På" },
+    "falseOption": { "message": "Av" },
+    "gradientLabel": { "message": "Gradient" },
+    "infoMessage": { "message": "Om det inte fungerar, ladda om Google Docs." },
+    "openDocsButton": { "message": "Öppna Google Docs" },
+    "saveButton": { "message": "Spara och Avsluta" },
+    "maker": { "message": "Skapad av Asahi Suenaga" },
+    "gradientDynamic": { "message": "Dynamisk" },
+    "gradientRainbow": { "message": "Regnbåge" },
+    "gradientRed": { "message": "Röd" },
+    "gradientSnow": { "message": "Snö" },
+    "gradientOcean": { "message": "Hav" },
+    "gradientForest": { "message": "Skog" },
+    "gradientFire": { "message": "Eld" },
+    "gradientIce": { "message": "Is" },
+    "gradientNeon": { "message": "Neon" },
+    "gradientGold": { "message": "Guld" },
+    "gradientSilver": { "message": "Silver" },
+    "gradientTwilight": { "message": "Skymning" },
+    "gradientVintage": { "message": "Vintage" },
+    "gradientTropical": { "message": "Tropisk" },
+    "gradientFloral": { "message": "Blommig" },
+    "gradientCandy": { "message": "Godis" },
+    "notInDocsMessage": { "message": "Du är inte i Google Docs." }
+}

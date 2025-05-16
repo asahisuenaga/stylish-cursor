@@ -1,0 +1,35 @@
+{
+  "extension_name": {
+    "message": "Stylish Cursor - Con trỏ tùy chỉnh cho Google Docs"
+  },
+  "extension_description": {
+    "message": "Thay thế con trỏ mặc định bằng một con trỏ thanh thoát và hoạt hình!"
+  },
+  "title": { "message": "Stylish Cursor" },
+  "caretWidthLabel": { "message": "Chiều rộng" },
+  "removeBlinkLabel": { "message": "Nhấp nháy" },
+  "trueOption": { "message": "Bật" },
+  "falseOption": { "message": "Tắt" },
+  "gradientLabel": { "message": "Màu sắc" },
+  "infoMessage": { "message": "Nếu không hoạt động, hãy tải lại Google Docs." },
+  "openDocsButton": { "message": "Mở Google Docs" },
+  "saveButton": { "message": "Lưu & Thoát" },
+  "maker": { "message": "Được tạo bởi Asahi Suenaga" },
+  "gradientDynamic": { "message": "Động" },
+  "gradientRainbow": { "message": "Cầu vồng" },
+  "gradientRed": { "message": "Đỏ" },
+  "gradientSnow": { "message": "Tuyết" },
+  "gradientOcean": { "message": "Đại dương" },
+  "gradientForest": { "message": "Rừng" },
+  "gradientFire": { "message": "Lửa" },
+  "gradientIce": { "message": "Băng" },
+  "gradientNeon": { "message": "Neon" },
+  "gradientGold": { "message": "Vàng" },
+  "gradientSilver": { "message": "Bạc" },
+  "gradientTwilight": { "message": "Chạng vạng" },
+  "gradientVintage": { "message": "Cổ điển" },
+  "gradientTropical": { "message": "Nhiệt đới" },
+  "gradientFloral": { "message": "Hoa" },
+  "gradientCandy": { "message": "Kẹo" },
+  "notInDocsMessage": { "message": "Bạn không ở trong Google Docs." }
+}

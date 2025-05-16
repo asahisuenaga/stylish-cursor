@@ -1,0 +1,35 @@
+{
+    "extension_name": {
+      "message": "Stylový kurzor - Vlastní kurzor pro Google Docs"
+    },
+    "extension_description": {
+      "message": "Vyměňte výchozí kurzor za elegantní a animovanou závorku!"
+    },
+    "title": { "message": "Stylový kurzor" },
+    "caretWidthLabel": { "message": "Šířka" },
+    "removeBlinkLabel": { "message": "Blikání" },
+    "trueOption": { "message": "Zapnuto" },
+    "falseOption": { "message": "Vypnuto" },
+    "gradientLabel": { "message": "Přechod" },
+    "infoMessage": { "message": "Pokud to nefunguje, znovu načtěte Google Docs." },
+    "openDocsButton": { "message": "Otevřít Google Docs" },
+    "saveButton": { "message": "Uložit a ukončit" },
+    "maker": { "message": "Vytvořeno Asahi Suenaga" },
+    "gradientDynamic": { "message": "Dynamický" },
+    "gradientRainbow": { "message": "Duhový" },
+    "gradientRed": { "message": "Červený" },
+    "gradientSnow": { "message": "Sníh" },
+    "gradientOcean": { "message": "Oceán" },
+    "gradientForest": { "message": "Les" },
+    "gradientFire": { "message": "Oheň" },
+    "gradientIce": { "message": "Led" },
+    "gradientNeon": { "message": "Neon" },
+    "gradientGold": { "message": "Zlato" },
+    "gradientSilver": { "message": "Stříbro" },
+    "gradientTwilight": { "message": "Soumrak" },
+    "gradientVintage": { "message": "Vintage" },
+    "gradientTropical": { "message": "Tropický" },
+    "gradientFloral": { "message": "Květinový" },
+    "gradientCandy": { "message": "Cukrový" },
+    "notInDocsMessage": { "message": "Nejste v Google Docs." }
+}

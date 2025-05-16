@@ -1,0 +1,35 @@
+{
+    "extension_name": {
+      "message": "Stilīgs kursoris - Pielāgots kursoris Google Docs"
+    },
+    "extension_description": {
+      "message": "Nomainiet noklusējuma kursoru uz elegantu un animētu karetu!"
+    },
+    "title": { "message": "Stilīgs kursoris" },
+    "caretWidthLabel": { "message": "Platums" },
+    "removeBlinkLabel": { "message": "Mirgošana" },
+    "trueOption": { "message": "Ieslēgts" },
+    "falseOption": { "message": "Izslēgts" },
+    "gradientLabel": { "message": "Gradiants" },
+    "infoMessage": { "message": "Ja tas nedarbojas, atsvaidziniet Google Docs." },
+    "openDocsButton": { "message": "Atvērt Google Docs" },
+    "saveButton": { "message": "Saglabāt un iziet" },
+    "maker": { "message": "Izveidoja Asahi Suenaga" },
+    "gradientDynamic": { "message": "Dinamisks" },
+    "gradientRainbow": { "message": "Varavīksne" },
+    "gradientRed": { "message": "Sarkans" },
+    "gradientSnow": { "message": "Sniegs" },
+    "gradientOcean": { "message": "Okeāns" },
+    "gradientForest": { "message": "Mežs" },
+    "gradientFire": { "message": "Uguns" },
+    "gradientIce": { "message": "Salds" },
+    "gradientNeon": { "message": "Neons" },
+    "gradientGold": { "message": "Zelts" },
+    "gradientSilver": { "message": "Sudrabs" },
+    "gradientTwilight": { "message": "Krēsla" },
+    "gradientVintage": { "message": "Vintage" },
+    "gradientTropical": { "message": "Tropisks" },
+    "gradientFloral": { "message": "Ziedu" },
+    "gradientCandy": { "message": "Konfekte" },
+    "notInDocsMessage": { "message": "Jūs neesat Google Docs." }
+}

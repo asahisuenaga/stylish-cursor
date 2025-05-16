@@ -1,0 +1,35 @@
+{
+    "extension_name": {
+      "message": "スタイリッカーソル - グーグルドキュメント用のカスタムカーソル"
+    },
+    "extension_description": {
+      "message": "デフォルトカーソルを、洗練されたアニメーション付きのキャレットに交換します！"
+    },
+    "title": { "message": "スタイリッカーソル" },
+    "caretWidthLabel": { "message": "幅" },
+    "removeBlinkLabel": { "message": "点滅" },
+    "trueOption": { "message": "オン" },
+    "falseOption": { "message": "オフ" },
+    "gradientLabel": { "message": "グラデーション" },
+    "infoMessage": { "message": "動作しない場合は、Googleドキュメントを再読み込みしてください。" },
+    "openDocsButton": { "message": "グーグルドキュメントを開く" },
+    "saveButton": { "message": "保存して終了" },
+    "maker": { "message": "末永朝飛が作った" },
+    "gradientDynamic": { "message": "ダイナミック" },
+    "gradientRainbow": { "message": "レインボー" },
+    "gradientRed": { "message": "レッド" },
+    "gradientSnow": { "message": "スノー" },
+    "gradientOcean": { "message": "オーシャン" },
+    "gradientForest": { "message": "フォレスト" },
+    "gradientFire": { "message": "ファイア" },
+    "gradientIce": { "message": "アイス" },
+    "gradientNeon": { "message": "ネオン" },
+    "gradientGold": { "message": "ゴールド" },
+    "gradientSilver": { "message": "シルバー" },
+    "gradientTwilight": { "message": "トワイライト" },
+    "gradientVintage": { "message": "ヴィンテージ" },
+    "gradientTropical": { "message": "トロピカル" },
+    "gradientFloral": { "message": "フローラル" },
+    "gradientCandy": { "message": "キャンディー" },
+    "notInDocsMessage": { "message": "グーグルドキュメントにいません。" }
+}

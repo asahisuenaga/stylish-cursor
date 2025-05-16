@@ -1,0 +1,35 @@
+{
+    "extension_name": {
+      "message": "স্টাইলিশ কার্সর - Google Docs-এর জন্য কাস্টম কার্সর"
+    },
+    "extension_description": {
+      "message": "ডিফল্ট কার্সরটি একটি চমত্কার এবং এনিমেটেড কেয়ারেটের সাথে প্রতিস্থাপন করুন!"
+    },
+    "title": { "message": "স্টাইলিশ কার্সর" },
+    "caretWidthLabel": { "message": "প্রস্থ" },
+    "removeBlinkLabel": { "message": "ঝলকানি" },
+    "trueOption": { "message": "চালু" },
+    "falseOption": { "message": "বন্ধ" },
+    "gradientLabel": { "message": "গ্রেডিয়েন্ট" },
+    "infoMessage": { "message": "যদি কাজ না করে, Google Docs পুনরায় লোড করুন।" },
+    "openDocsButton": { "message": "Google Docs খুলুন" },
+    "saveButton": { "message": "সংরক্ষণ করুন ও বের হন" },
+    "maker": { "message": "আসাহি সুয়েনাগা দ্বারা তৈরি" },
+    "gradientDynamic": { "message": "ডাইনামিক" },
+    "gradientRainbow": { "message": "রেইনবো" },
+    "gradientRed": { "message": "লাল" },
+    "gradientSnow": { "message": "তুষার" },
+    "gradientOcean": { "message": "সমুদ্র" },
+    "gradientForest": { "message": "জঙ্গল" },
+    "gradientFire": { "message": "আগুন" },
+    "gradientIce": { "message": "বরফ" },
+    "gradientNeon": { "message": "নিয়ন" },
+    "gradientGold": { "message": "সোনা" },
+    "gradientSilver": { "message": "রূপা" },
+    "gradientTwilight": { "message": "গোধূলি" },
+    "gradientVintage": { "message": "ভিন্টেজ" },
+    "gradientTropical": { "message": "উষ্ণমণ্ডলীয়" },
+    "gradientFloral": { "message": "ফুলের" },
+    "gradientCandy": { "message": "মিষ্টি" },
+    "notInDocsMessage": { "message": "আপনি Google Docs-এ নেই।" }
+}

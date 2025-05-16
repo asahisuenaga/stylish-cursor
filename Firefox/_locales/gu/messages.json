@@ -1,0 +1,35 @@
+{
+  "extension_name": {
+    "message": "સ્ટાઇલિશ કર્સર - ગૂગલ ડોક્સ માટે કસ્ટમ કર્સર"
+  },
+  "extension_description": {
+    "message": "ડિફોલ્ટ કર્સરને એક સ્મૂથ અને એનિમેટેડ કૅરેટથી બદલો!"
+  },
+  "title": { "message": "સ્ટાઇલિશ કર્સર" },
+  "caretWidthLabel": { "message": "પસારો" },
+  "removeBlinkLabel": { "message": "ઝપકન" },
+  "trueOption": { "message": "ઓન" },
+  "falseOption": { "message": "ઑફ" },
+  "gradientLabel": { "message": "ગ્રેડિએન્ટ" },
+  "infoMessage": { "message": "જો આ કાર્ય કરી રહ્યો નથી, તો ગૂગલ ડોક્સને ફરીથી રિલોડ કરો." },
+  "openDocsButton": { "message": "ગૂગલ ડોક્સ ખોલો" },
+  "saveButton": { "message": "સાચવો અને બહાર જાઓ" },
+  "maker": { "message": "આસાહી સુએનાગા દ્વારા બનાવેલ" },
+  "gradientDynamic": { "message": "ડાયનામિક" },
+  "gradientRainbow": { "message": "રેઇનબોઓ" },
+  "gradientRed": { "message": "લાલ" },
+  "gradientSnow": { "message": "હિમ" },
+  "gradientOcean": { "message": "સમુદ્ર" },
+  "gradientForest": { "message": "જંગલ" },
+  "gradientFire": { "message": "આગ" },
+  "gradientIce": { "message": "બરફ" },
+  "gradientNeon": { "message": "નીઓન" },
+  "gradientGold": { "message": "સોનુ" },
+  "gradientSilver": { "message": "ચાંદી" },
+  "gradientTwilight": { "message": "સાંજ" },
+  "gradientVintage": { "message": "વિન્ટેજ" },
+  "gradientTropical": { "message": "ત્રોપિકલ" },
+  "gradientFloral": { "message": "ફૂલ" },
+  "gradientCandy": { "message": "કંદી" },
+  "notInDocsMessage": { "message": "તમે ગૂગલ ડોક્સમાં નથી." }
+}

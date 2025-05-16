@@ -1,0 +1,35 @@
+{
+  "extension_name": {
+    "message": "Stylish Cursor - เคอร์เซอร์ที่กำหนดเองสำหรับ Google Docs"
+  },
+  "extension_description": {
+    "message": "เปลี่ยนเคอร์เซอร์เริ่มต้นเป็นเคอร์เซอร์ที่ทันสมัยและมีอนิเมชัน!"
+  },
+  "title": { "message": "Stylish Cursor" },
+  "caretWidthLabel": { "message": "ความกว้าง" },
+  "removeBlinkLabel": { "message": "กระพริบ" },
+  "trueOption": { "message": "เปิด" },
+  "falseOption": { "message": "ปิด" },
+  "gradientLabel": { "message": "เกรเดียนต์" },
+  "infoMessage": { "message": "หากไม่ทำงาน กรุณารีโหลด Google Docs." },
+  "openDocsButton": { "message": "เปิด Google Docs" },
+  "saveButton": { "message": "บันทึก & ออกจากระบบ" },
+  "maker": { "message": "สร้างโดย Asahi Suenaga" },
+  "gradientDynamic": { "message": "ไดนามิก" },
+  "gradientRainbow": { "message": "รุ้ง" },
+  "gradientRed": { "message": "แดง" },
+  "gradientSnow": { "message": "หิมะ" },
+  "gradientOcean": { "message": "มหาสมุทร" },
+  "gradientForest": { "message": "ป่า" },
+  "gradientFire": { "message": "ไฟ" },
+  "gradientIce": { "message": "น้ำแข็ง" },
+  "gradientNeon": { "message": "นีออน" },
+  "gradientGold": { "message": "ทอง" },
+  "gradientSilver": { "message": "เงิน" },
+  "gradientTwilight": { "message": "พลบค่ำ" },
+  "gradientVintage": { "message": "วินเทจ" },
+  "gradientTropical": { "message": "เขตร้อน" },
+  "gradientFloral": { "message": "ดอกไม้" },
+  "gradientCandy": { "message": "ลูกกวาด" },
+  "notInDocsMessage": { "message": "คุณไม่ได้อยู่ใน Google Docs." }
+}

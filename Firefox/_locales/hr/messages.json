@@ -1,0 +1,35 @@
+{
+    "extension_name": {
+      "message": "Stylish Cursor - Prilagođeni kursor za Google Docs"
+    },
+    "extension_description": {
+      "message": "Zamijenite zadani kursor s elegantnim i animiranim pokazivačem!"
+    },
+    "title": { "message": "Stylish Cursor" },
+    "caretWidthLabel": { "message": "Širina" },
+    "removeBlinkLabel": { "message": "Treperenje" },
+    "trueOption": { "message": "Uključeno" },
+    "falseOption": { "message": "Isključeno" },
+    "gradientLabel": { "message": "Gradient" },
+    "infoMessage": { "message": "Ako ne radi, ponovo učitaj Google Docs." },
+    "openDocsButton": { "message": "Otvorite Google Docs" },
+    "saveButton": { "message": "Spremi i izađi" },
+    "maker": { "message": "Izradio Asahi Suenaga" },
+    "gradientDynamic": { "message": "Dinamično" },
+    "gradientRainbow": { "message": "Dugina" },
+    "gradientRed": { "message": "Crveno" },
+    "gradientSnow": { "message": "Snijeg" },
+    "gradientOcean": { "message": "Okean" },
+    "gradientForest": { "message": "Šuma" },
+    "gradientFire": { "message": "Vatra" },
+    "gradientIce": { "message": "Led" },
+    "gradientNeon": { "message": "Neon" },
+    "gradientGold": { "message": "Zlato" },
+    "gradientSilver": { "message": "Srebro" },
+    "gradientTwilight": { "message": "Sumrak" },
+    "gradientVintage": { "message": "Vintage" },
+    "gradientTropical": { "message": "Tropski" },
+    "gradientFloral": { "message": "Cvjetni" },
+    "gradientCandy": { "message": "Bomboni" },
+    "notInDocsMessage": { "message": "Niste u Google Docs." }
+}
