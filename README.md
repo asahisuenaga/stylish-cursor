@@ -30,14 +30,7 @@ Whether you are a student, professional writer, or casual user, the Stylish Curs
 3. Once installed, pin the extension to your browser by clicking the **Extensions** icon (puzzle piece) in the top-right corner, then clicking the pin icon next to **Stylish Cursor**.
 4. Stylish Cursor will be ready to use!
 
-### Option 2: Install on Firefox (Waiting for Approval)
-
-1. [Download Stylish Cursor for Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish-cursor/) *(Link will work once published)*.
-2. Click **Add to Firefox** and confirm the installation when prompted.
-3. After installing, the Stylish Cursor icon will appear in your toolbar.
-4. The extension will now be active and ready to use on supported pages like Google Docs.
-
-### Option 3: Manual Installation (For Development)
+### Option 2: Manual Installation (For Development)
 
 #### Chrome:
 
