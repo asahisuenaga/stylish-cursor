@@ -148,11 +148,10 @@ function applyCaretWidth(cursor) {
 
 // Updated initialize function to retrieve and apply gradient style on load
 function initialize() {
-    // Cache cursor elements to avoid repeated DOM queries
-    if (!cache.cursorElements) {
-        cache.cursorElements = document.getElementsByClassName("kix-cursor-caret");
-    }
-    
+    // Only get the current user's caret by id
+    const currentUserCaret = document.getElementById('kix-current-user-cursor-caret');
+    cache.cursorElements = currentUserCaret ? [currentUserCaret] : [];
+
     if (cache.cursorElements.length > 0) {
         // Retrieve the stored gradient style and apply it to all cursor elements
         debouncedStorageGet(['gradientStyle'], (result) => {
@@ -208,6 +207,36 @@ function initialize() {
 // Start the initialization process
 initialize();
 
+// Listen for Google Docs tab switches
+window.addEventListener('googleDocsTabSwitch', (event) => {
+    console.log('Google Docs tab switch detected:', event.detail.url);
+    // Clear cache and reinitialize after a short delay to allow DOM to update
+    cache.cursorElements = null;
+    cache.storageCache = {};
+    setTimeout(() => {
+        initialize();
+    }, 100);
+});
+
+// Also listen for URL changes within the same page (for tab switches)
+let lastUrl = window.location.href;
+const urlObserver = new MutationObserver(() => {
+    const currentUrl = window.location.href;
+    if (currentUrl !== lastUrl && currentUrl.includes('docs.google.com/document')) {
+        lastUrl = currentUrl;
+        console.log('URL change detected in Google Docs:', currentUrl);
+        // Clear cache and reinitialize after a short delay
+        cache.cursorElements = null;
+        cache.storageCache = {};
+        setTimeout(() => {
+            initialize();
+        }, 100);
+    }
+});
+
+// Start observing URL changes
+urlObserver.observe(document, { subtree: true, childList: true });
+
 function applyCaretStyling() {
   debouncedStorageGet(['Thickness', 'Blink', 'gradientStyle'], (result) => {
 
@@ -233,231 +262,198 @@ function applyCaretStyling() {
 // Apply caret styling when the script runs
 applyCaretStyling();
 
-// Function to show thank you overlay (only once)
+// Apply caret styling when the script runs
+applyCaretStyling();
+
+// Overlay utility for thank you and rating overlays
+function createOverlay({ id, title, message1, message2, actions }) {
+    // Remove any existing overlay with the same id
+    const old = document.getElementById(id);
+    if (old) old.remove();
+
+    const overlay = document.createElement('div');
+    overlay.id = id;
+    overlay.setAttribute('role', 'dialog');
+    overlay.setAttribute('aria-modal', 'true');
+    overlay.tabIndex = -1;
+    overlay.style.cssText = `
+        position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+        background: rgba(0,0,0,0.6); display: flex; align-items: center; justify-content: center;
+        z-index: 2147483647; font-family: 'Inter', sans-serif;
+    `;
+
+    // Inject popup CSS for consistent styling
+    if (!document.getElementById('stylish-cursor-popup-css')) {
+        const style = document.createElement('style');
+        style.id = 'stylish-cursor-popup-css';
+        style.textContent = `
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+        .stylish-cursor-overlay-box {
+            background: linear-gradient(145deg, #f0f2f5, #ffffff);
+            color: #333;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+            max-width: 350px;
+            width: 90vw;
+            padding: 32px 24px;
+            text-align: center;
+            position: relative;
+            font-family: 'Inter', sans-serif;
+        }
+        .stylish-cursor-overlay-box h2 {
+            margin: 0 0 12px 0;
+            font-size: 1.3em;
+            font-weight: 600;
+            color: #333;
+        }
+        .stylish-cursor-overlay-box p {
+            margin: 0 0 12px 0;
+            font-size: 1em;
+            color: #333;
+        }
+        .stylish-cursor-overlay-actions {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .stylish-cursor-overlay-box button, .stylish-cursor-overlay-box a {
+            appearance: none;
+            background: linear-gradient(145deg, #e8e8e8, #ffffff);
+            border: 1px solid #d0d0d0;
+            padding: 10px 18px;
+            border-radius: 12px;
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            color: #333;
+            cursor: pointer;
+            font-weight: 500;
+            text-decoration: none;
+            box-shadow: inset 1px 1px 3px rgba(255,255,255,0.6),
+                        inset -1px -1px 3px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+        }
+        .stylish-cursor-overlay-box button.primary, .stylish-cursor-overlay-box a.primary {
+            background: linear-gradient(to top, #4A90E2, #6AB0F3);
+            color: #fff;
+            border: none;
+        }
+        .stylish-cursor-overlay-box button:hover, .stylish-cursor-overlay-box a:hover {
+            background: #f7f7f7;
+            filter: brightness(1.05);
+        }
+        .stylish-cursor-overlay-box button.primary:hover, .stylish-cursor-overlay-box a.primary:hover {
+            box-shadow: 0 0 8px rgba(74, 144, 226, 0.4);
+            background: linear-gradient(to top, #4285F4, #5f9df7);
+        }
+        @media (prefers-color-scheme: dark) {
+            .stylish-cursor-overlay-box {
+                background: linear-gradient(145deg, #1b1b1b, #232323);
+                color: #f5f5f5;
+            }
+            .stylish-cursor-overlay-box h2, .stylish-cursor-overlay-box p {
+                color: #f5f5f5;
+            }
+            .stylish-cursor-overlay-box button, .stylish-cursor-overlay-box a {
+                background: linear-gradient(145deg, #2c2c2c, #1a1a1a);
+                border: 1px solid #444;
+                color: #f5f5f5;
+            }
+            .stylish-cursor-overlay-box button.primary, .stylish-cursor-overlay-box a.primary {
+                background: linear-gradient(to top, #4285F4, #5f9df7);
+                color: #fff;
+            }
+        }
+        `;
+        document.head.appendChild(style);
+    }
+
+    const box = document.createElement('div');
+    box.className = 'stylish-cursor-overlay-box';
+    box.innerHTML = `
+        <h2>${title}</h2>
+        <p>${message1}</p>
+        <p>${message2 || ''}</p>
+    `;
+
+    const actionsDiv = document.createElement('div');
+    actionsDiv.className = 'stylish-cursor-overlay-actions';
+    actions.forEach(({ label, onClick, href, primary }) => {
+        const btn = href
+            ? document.createElement('a')
+            : document.createElement('button');
+        btn.textContent = label;
+        btn.className = primary ? 'primary' : '';
+        if (href) {
+            btn.href = href;
+            btn.target = '_blank';
+            btn.rel = 'noopener noreferrer';
+        } else {
+            btn.onclick = onClick;
+        }
+        actionsDiv.appendChild(btn);
+    });
+    box.appendChild(actionsDiv);
+    overlay.appendChild(box);
+
+    // Focus trap and ESC to close
+    overlay.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            overlay.remove();
+        }
+    });
+    setTimeout(() => overlay.focus(), 0);
+
+    document.body.appendChild(overlay);
+}
+
 function showThankYouOverlay() {
-    // Check if overlay has already been shown
-    if (localStorage.getItem('stylishCursorOverlayShown')) {
-        return;
-    }
-
-    // Create overlay container with minimal styles
-    const overlay = document.createElement('div');
-    overlay.id = 'stylish-cursor-overlay';
-    overlay.style.cssText = `
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.7);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 999999;
-        font-family: Arial, sans-serif;
-    `;
-
-    // Create message container with simplified styles
-    const messageContainer = document.createElement('div');
-    messageContainer.style.cssText = `
-        background: white;
-        padding: 30px;
-        border-radius: 8px;
-        text-align: center;
-        max-width: 350px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    `;
-
-    // Get localized messages
-    const thankYouTitle = chrome.i18n.getMessage('thankYouTitle');
-    const thankYouMessage1 = chrome.i18n.getMessage('thankYouMessage1');
-    const thankYouMessage2 = chrome.i18n.getMessage('thankYouMessage2');
-    const visitGitHubButton = chrome.i18n.getMessage('visitGitHubButton');
-    const gotItButton = chrome.i18n.getMessage('gotItButton');
-
-    // Create message content with simplified HTML
-    messageContainer.innerHTML = `
-        <div style="margin-bottom: 15px;">
-            <h2 style="color: #1a73e8; margin: 0 0 10px 0; font-size: 20px; font-weight: 500;">
-                ${thankYouTitle}
-            </h2>
-            <p style="color: #5f6368; margin: 0 0 15px 0; font-size: 14px; line-height: 1.4;">
-                ${thankYouMessage1}
-            </p>
-            <p style="color: #5f6368; margin: 0 0 20px 0; font-size: 14px; line-height: 1.4;">
-                ${thankYouMessage2}
-            </p>
-        </div>
-        <div style="display: flex; gap: 10px; justify-content: center;">
-            <a href="https://github.com/your-username/stylish-cursor" 
-               target="_blank" 
-               style="
-                   background: #1a73e8;
-                   color: white;
-                   padding: 10px 20px;
-                   border-radius: 4px;
-                   text-decoration: none;
-                   font-weight: 500;
-                   font-size: 14px;
-               ">
-                ${visitGitHubButton}
-            </a>
-            <button onclick="dismissThankYouOverlay()"
-                    style="
-                        background: #f1f3f4;
-                        color: #5f6368;
-                        padding: 10px 20px;
-                        border: none;
-                        border-radius: 4px;
-                        font-weight: 500;
-                        cursor: pointer;
-                        font-size: 14px;
-                    ">
-                ${gotItButton}
-            </button>
-        </div>
-    `;
-
-    // Add message to overlay
-    overlay.appendChild(messageContainer);
-
-    // Add overlay to page
-    document.body.appendChild(overlay);
-
-    // Close overlay when clicking outside
-    overlay.addEventListener('click', (e) => {
-        if (e.target === overlay) {
-            dismissThankYouOverlay();
-        }
+    if (localStorage.getItem('stylishCursorOverlayShown')) return;
+    createOverlay({
+        id: 'stylish-cursor-overlay',
+        title: chrome.i18n.getMessage('thankYouTitle'),
+        message1: chrome.i18n.getMessage('thankYouMessage1'),
+        message2: chrome.i18n.getMessage('thankYouMessage2'),
+        actions: [
+            {
+                label: chrome.i18n.getMessage('visitGitHubButton'),
+                href: 'https://github.com/asahisuenaga/stylish-cursor',
+                primary: true
+            },
+            {
+                label: chrome.i18n.getMessage('gotItButton'),
+                onClick: () => {
+                    localStorage.setItem('stylishCursorOverlayShown', 'true');
+                    document.getElementById('stylish-cursor-overlay').remove();
+                }
+            }
+        ]
     });
-
-    // Auto-dismiss after 30 seconds
-    setTimeout(dismissThankYouOverlay, 30000);
 }
 
-// Function to dismiss thank you overlay
-function dismissThankYouOverlay() {
-    const overlay = document.getElementById('stylish-cursor-overlay');
-    if (overlay) {
-        overlay.remove();
-        localStorage.setItem('stylishCursorOverlayShown', 'true');
-    }
-}
-
-// Function to show rating request overlay (only once, after delay)
 function showRatingOverlay() {
-    // Check if rating overlay has already been shown
-    if (localStorage.getItem('stylishCursorRatingShown')) {
-        return;
-    }
-
-    // Only show if we're currently in Google Docs
-    if (!window.location.href.includes('docs.google.com/document')) {
-        return;
-    }
-
-    // Create overlay container with minimal styles
-    const overlay = document.createElement('div');
-    overlay.id = 'stylish-cursor-rating-overlay';
-    overlay.style.cssText = `
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.7);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 999999;
-        font-family: Arial, sans-serif;
-    `;
-
-    // Create message container with simplified styles
-    const messageContainer = document.createElement('div');
-    messageContainer.style.cssText = `
-        background: white;
-        padding: 30px;
-        border-radius: 8px;
-        text-align: center;
-        max-width: 350px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    `;
-
-    // Get localized messages
-    const ratingTitle = chrome.i18n.getMessage('ratingTitle');
-    const ratingMessage1 = chrome.i18n.getMessage('ratingMessage1');
-    const ratingMessage2 = chrome.i18n.getMessage('ratingMessage2');
-    const rateExtensionButton = chrome.i18n.getMessage('rateExtensionButton');
-    const maybeLaterButton = chrome.i18n.getMessage('maybeLaterButton');
-
-    // Create message content with simplified HTML
-    messageContainer.innerHTML = `
-        <div style="margin-bottom: 15px;">
-            <h2 style="color: #1a73e8; margin: 0 0 10px 0; font-size: 20px; font-weight: 500;">
-                ${ratingTitle}
-            </h2>
-            <p style="color: #5f6368; margin: 0 0 15px 0; font-size: 14px; line-height: 1.4;">
-                ${ratingMessage1}
-            </p>
-            <p style="color: #5f6368; margin: 0 0 20px 0; font-size: 14px; line-height: 1.4;">
-                ${ratingMessage2}
-            </p>
-        </div>
-        <div style="display: flex; gap: 10px; justify-content: center;">
-            <a href="https://chromewebstore.google.com/detail/nnmghknojpihdnofejbocdcnmhibkfdc?utm_source=item-share-cb" 
-               target="_blank" 
-               style="
-                   background: #1a73e8;
-                   color: white;
-                   padding: 10px 20px;
-                   border-radius: 4px;
-                   text-decoration: none;
-                   font-weight: 500;
-                   font-size: 14px;
-               ">
-                ${rateExtensionButton}
-            </a>
-            <button onclick="dismissRatingOverlay()"
-                    style="
-                        background: #f1f3f4;
-                        color: #5f6368;
-                        padding: 10px 20px;
-                        border: none;
-                        border-radius: 4px;
-                        font-weight: 500;
-                        cursor: pointer;
-                        font-size: 14px;
-                    ">
-                ${maybeLaterButton}
-            </button>
-        </div>
-    `;
-
-    // Add message to overlay
-    overlay.appendChild(messageContainer);
-
-    // Add overlay to page
-    document.body.appendChild(overlay);
-
-    // Close overlay when clicking outside
-    overlay.addEventListener('click', (e) => {
-        if (e.target === overlay) {
-            dismissRatingOverlay();
-        }
+    if (localStorage.getItem('stylishCursorRatingShown')) return;
+    if (!window.location.href.includes('docs.google.com/document')) return;
+    createOverlay({
+        id: 'stylish-cursor-rating-overlay',
+        title: chrome.i18n.getMessage('ratingTitle'),
+        message1: chrome.i18n.getMessage('ratingMessage1'),
+        message2: chrome.i18n.getMessage('ratingMessage2'),
+        actions: [
+            {
+                label: chrome.i18n.getMessage('rateExtensionButton'),
+                href: 'https://chromewebstore.google.com/detail/nnmghknojpihdnofejbocdcnmhibkfdc?utm_source=item-share-cb',
+                primary: true
+            },
+            {
+                label: chrome.i18n.getMessage('maybeLaterButton'),
+                onClick: () => {
+                    localStorage.setItem('stylishCursorRatingShown', 'true');
+                    document.getElementById('stylish-cursor-rating-overlay').remove();
+                }
+            }
+        ]
     });
-
-    // Auto-dismiss after 30 seconds
-    setTimeout(dismissRatingOverlay, 30000);
-}
-
-// Function to dismiss rating overlay
-function dismissRatingOverlay() {
-    const overlay = document.getElementById('stylish-cursor-rating-overlay');
-    if (overlay) {
-        overlay.remove();
-        localStorage.setItem('stylishCursorRatingShown', 'true');
-    }
 }
 
 // Function to track time spent in Google Docs and schedule rating overlay
