@@ -86,6 +86,7 @@ function applyGradientAnimation(cursor, colorScheme = 'dynamic') {
         gold: ['#FFD700', '#FFB84D', '#FFA500', '#FF8C00', '#DAA520'],
         silver: ['#C0C0C0', '#D3D3D3', '#A9A9A9', '#808080', '#B0C4DE'],
         twilight: ['#FFA07A', '#FA8072', '#E9967A', '#8B4513', '#2E2E2E'],
+        vintage: ['#eacda3', '#d6ae7b'],
         tropical: ['#FFD700', '#FF4500', '#FF8C00', '#00FA9A', '#20B2AA'],
        floral: ['#FF69B4', '#FFB6C1', '#FFC0CB', '#FFDAB9', '#FFE4E1'],
        candy: ['#FFC3A0', '#FF85A1', '#FF6D6A', '#FFC1CC', '#FF99A8']
