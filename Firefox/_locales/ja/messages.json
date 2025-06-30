@@ -11,7 +11,7 @@
   "infoMessage": {"message":"動作しない場合は、Google Docsを再読み込みしてください。"},
   "openDocsButton": {"message":"Google Docsを開く"},
   "saveButton": {"message":"保存して終了"},
-  "maker": {"message":"作成者: Asahi Suenaga"},
+  "maker": {"message":"拡張機能を支援する"},
   "gradientDynamic": {"message":"ダイナミック"},
   "gradientRainbow": {"message":"レインボー"},
   "gradientRed": {"message":"レッド"},

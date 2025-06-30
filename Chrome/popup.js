@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Event listener for "Feedback" button
   maker.addEventListener('click', () => {
-    window.open('https://asahi.fyi/', '_blank');
+    window.open('https://stylish-cursor.framer.website/#donate', '_blank');
   });
 
   // Check if user is in Google Docs

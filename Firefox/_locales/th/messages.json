@@ -11,7 +11,7 @@
   "infoMessage": {"message":"หากไม่ทำงาน กรุณารีโหลด Google Docs."},
   "openDocsButton": {"message":"เปิด Google Docs"},
   "saveButton": {"message":"บันทึก & ออกจากระบบ"},
-  "maker": {"message":"สร้างโดย Asahi Suenaga"},
+  "maker": {"message":"สนับสนุนส่วนขยาย"},
   "gradientDynamic": {"message":"ไดนามิก"},
   "gradientRainbow": {"message":"รุ้ง"},
   "gradientRed": {"message":"แดง"},

@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"Stylish Cursor - Προσαρμοσμένος Δείκτης για το Google Docs"},
+  "extension_name": {"message":"Προσαρμοσμένος δρομέας στο Google Docs"},
   "extension_description": {"message":"Αντικαταστήστε τον προεπιλεγμένο δείκτη με έναν κομψό και κινούμενο δείκτη!"},
-  "title": {"message":"Stylish Cursor"},
+  "title": {"message":"Προσαρμοσμένος δρομέας στο Google Docs"},
   "caretWidthLabel": {"message":"Πάχος"},
   "BlinkLabel": {"message":"Αναβοσβήνει"},
   "trueOption": {"message":"Ενεργό"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"Αν δεν λειτουργεί, ανανεώστε το Google Docs."},
   "openDocsButton": {"message":"Άνοιγμα Google Docs"},
   "saveButton": {"message":"Αποθήκευση & Έξοδος"},
-  "maker": {"message":"Φτιαγμένο από τον Asahi Suenaga"},
+  "maker": {"message":"Υποστήριξη της επέκτασης"},
   "gradientDynamic": {"message":"Δυναμικό"},
   "gradientRainbow": {"message":"Ουράνιο Τόξο"},
   "gradientRed": {"message":"Κόκκινο"},

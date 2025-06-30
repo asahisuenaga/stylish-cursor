@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"സ്റ്റൈലിഷ് കേഴ്സർ - ഗൂഗിൾ ഡോക്സിനായി കസ്റ്റം കേഴ്സർ"},
+  "extension_name": {"message":"ഗൂഗിൾ ഡോക്സിനായി കസ്റ്റം കേഴ്സർ"},
   "extension_description": {"message":"ഡിഫോൾട്ട് കേഴ്സർ ചാലകവും അനിമേറ്റഡ് കെയരറ്റ്-ഉം മാറ്റുക!"},
-  "title": {"message":"സ്റ്റൈലിഷ് കേഴ്സർ"},
+  "title": {"message":"ഗൂഗിൾ ഡോക്സിനായി കസ്റ്റം കേഴ്സർ"},
   "caretWidthLabel": {"message":"കനം"},
   "BlinkLabel": {"message":"മറിച്ചെടുക്കുക"},
   "trueOption": {"message":"ഓൺ"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"അത് പ്രവർത്തിക്കുന്നില്ലെങ്കിൽ, ഗൂഗിൾ ഡോക്സ് റീലോഡ് ചെയ്യുക."},
   "openDocsButton": {"message":"ഗൂഗിൾ ഡോക്സ് തുറക്കുക"},
   "saveButton": {"message":"സേവ് & എക്സിറ്റ്"},
-  "maker": {"message":"അസാഹി സുയെനാഗാ നിർമ്മിച്ചവ"},
+  "maker": {"message":"വിപുലീകരണത്തെ പിന്തുണയ്ക്കുക"},
   "gradientDynamic": {"message":"ഡൈനാമിക്"},
   "gradientRainbow": {"message":"വൈരവിഷം"},
   "gradientRed": {"message":"ചുവപ്പ്"},

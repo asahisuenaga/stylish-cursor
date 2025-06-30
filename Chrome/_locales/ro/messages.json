@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"Cursor Stilat - Cursor Personalizat pentru Google Docs"},
+  "extension_name": {"message":"Cursor personalizat în Google Docs"},
   "extension_description": {"message":"Schimbă cursorul implicit cu un semn de scriere elegant și animat!"},
-  "title": {"message":"Cursor Stilat"},
+  "title": {"message":"Cursor personalizat în Google Docs"},
   "caretWidthLabel": {"message":"Grosime"},
   "BlinkLabel": {"message":"Clipoire"},
   "trueOption": {"message":"Activat"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"Dacă nu funcționează, reîncarcă Google Docs."},
   "openDocsButton": {"message":"Deschide Google Docs"},
   "saveButton": {"message":"Salvează și Ieși"},
-  "maker": {"message":"Creat de Asahi Suenaga"},
+  "maker": {"message":"Susține extensia"},
   "gradientDynamic": {"message":"Dinamic"},
   "gradientRainbow": {"message":"Curcubeu"},
   "gradientRed": {"message":"Roșu"},

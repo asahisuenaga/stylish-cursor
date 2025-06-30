@@ -11,7 +11,7 @@
   "infoMessage": {"message":"Om det inte fungerar, ladda om Google Docs."},
   "openDocsButton": {"message":"Öppna Google Docs"},
   "saveButton": {"message":"Spara och Avsluta"},
-  "maker": {"message":"Skapad av Asahi Suenaga"},
+  "maker": {"message":"Stöd tillägget"},
   "gradientDynamic": {"message":"Dynamisk"},
   "gradientRainbow": {"message":"Regnbåge"},
   "gradientRed": {"message":"Röd"},

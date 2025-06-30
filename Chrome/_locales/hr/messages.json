@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"Stylish Cursor - Prilagođeni kursor za Google Docs"},
+  "extension_name": {"message":"Prilagođeni kursor u Google Docs"},
   "extension_description": {"message":"Zamijenite zadani kursor s elegantnim i animiranim pokazivačem!"},
-  "title": {"message":"Stylish Cursor"},
+  "title": {"message":"Prilagođeni kursor u Google Docs"},
   "caretWidthLabel": {"message":"Debljina"},
   "BlinkLabel": {"message":"Treperenje"},
   "trueOption": {"message":"Uključeno"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"Ako ne radi, ponovo učitaj Google Docs."},
   "openDocsButton": {"message":"Otvorite Google Docs"},
   "saveButton": {"message":"Spremi i izađi"},
-  "maker": {"message":"Izradio Asahi Suenaga"},
+  "maker": {"message":"Podržite proširenje"},
   "gradientDynamic": {"message":"Dinamično"},
   "gradientRainbow": {"message":"Dugina"},
   "gradientRed": {"message":"Crveno"},

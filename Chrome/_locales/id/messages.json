@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"Stylish Cursor - Kursor Kustom untuk Google Docs"},
+  "extension_name": {"message":"Kursor kustom di Google Docs"},
   "extension_description": {"message":"Ganti kursor default dengan kursor yang ramping dan animasi!"},
-  "title": {"message":"Stylish Cursor"},
+  "title": {"message":"Kursor kustom di Google Docs"},
   "caretWidthLabel": {"message":"Ketebalan"},
   "BlinkLabel": {"message":"Kedip"},
   "trueOption": {"message":"Aktif"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"Jika tidak bekerja, muat ulang Google Docs."},
   "openDocsButton": {"message":"Buka Google Docs"},
   "saveButton": {"message":"Simpan & Keluar"},
-  "maker": {"message":"Dibuat oleh Asahi Suenaga"},
+  "maker": {"message":"Dukung ekstensi"},
   "gradientDynamic": {"message":"Dinamis"},
   "gradientRainbow": {"message":"Pelangi"},
   "gradientRed": {"message":"Merah"},

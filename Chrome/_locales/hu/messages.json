@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"Stylish Cursor - Egyedi kurzor a Google Docs-hoz"},
+  "extension_name": {"message":"Egyedi kurzor a Google Docsban"},
   "extension_description": {"message":"Cseréld le az alapértelmezett kurzort egy elegáns és animált kurzorra!"},
-  "title": {"message":"Stylish Cursor"},
+  "title": {"message":"Egyedi kurzor a Google Docsban"},
   "caretWidthLabel": {"message":"Vastagság"},
   "BlinkLabel": {"message":"Villogás"},
   "trueOption": {"message":"Be"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"Ha nem működik, frissítsd újra a Google Docs-ot."},
   "openDocsButton": {"message":"Google Docs megnyitása"},
   "saveButton": {"message":"Mentés és kilépés"},
-  "maker": {"message":"Készítette Asahi Suenaga"},
+  "maker": {"message":"Támogassa a bővítményt"},
   "gradientDynamic": {"message":"Dinamikus"},
   "gradientRainbow": {"message":"Szivárvány"},
   "gradientRed": {"message":"Piros"},

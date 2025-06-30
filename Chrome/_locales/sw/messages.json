@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"Kijimwonekano cha Kisasa - Kijimwonekano cha Kubinafsisha kwa Google Docs"},
+  "extension_name": {"message":"Kijimwonekano cha kubinafsisha katika Google Docs"},
   "extension_description": {"message":"Badilisha kijimwonekano cha kawaida na kijimwonekano kisicho na kasoro na kinachoonyesha harakati!"},
-  "title": {"message":"Kijimwonekano cha Kisasa"},
+  "title": {"message":"Kijimwonekano cha kubinafsisha katika Google Docs"},
   "ThicknessLabel": {"message":"Unene"},
   "BlinkLabel": {"message":"Kukosa"},
   "trueOption": {"message":"Wazi"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"Ikiwa haifanyi kazi, tafadhali rejesha Google Docs."},
   "openDocsButton": {"message":"Fungua Google Docs"},
   "saveButton": {"message":"Hifadhi na Toka"},
-  "maker": {"message":"Imetengenezwa na Asahi Suenaga"},
+  "maker": {"message":"Saidia Kiendelezi"},
   "gradientDynamic": {"message":"Inayobadilika"},
   "gradientRainbow": {"message":"Upinde wa mvua"},
   "gradientRed": {"message":"Nyekundu"},

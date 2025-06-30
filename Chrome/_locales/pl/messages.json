@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"Stylowy Kursor - Niestandardowy Kursor dla Google Docs"},
+  "extension_name": {"message":"Niestandardowy kursor w Google Docs"},
   "extension_description": {"message":"Zamień domyślny kursor na elegancki i animowany karet!"},
-  "title": {"message":"Stylowy Kursor"},
+  "title": {"message":"Niestandardowy kursor w Google Docs"},
   "caretWidthLabel": {"message":"Grubość"},
   "BlinkLabel": {"message":"Mruganie"},
   "trueOption": {"message":"Włącz"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"Jeśli nie działa, przeładuj Google Docs."},
   "openDocsButton": {"message":"Otwórz Google Docs"},
   "saveButton": {"message":"Zapisz & Zakończ"},
-  "maker": {"message":"Stworzone przez Asahi Suenaga"},
+  "maker": {"message":"Wesprzyj rozszerzenie"},
   "gradientDynamic": {"message":"Dynamiczny"},
   "gradientRainbow": {"message":"Tęcza"},
   "gradientRed": {"message":"Czerwony"},

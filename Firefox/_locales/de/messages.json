@@ -11,7 +11,7 @@
   "infoMessage": {"message":"Wenn es nicht funktioniert, lade Google Docs neu."},
   "openDocsButton": {"message":"Google Docs öffnen"},
   "saveButton": {"message":"Speichern & Beenden"},
-  "maker": {"message":"Erstellt von Asahi Suenaga"},
+  "maker": {"message":"Erweiterung unterstützen"},
   "gradientDynamic": {"message":"Dynamisch"},
   "gradientRainbow": {"message":"Regenbogen"},
   "gradientRed": {"message":"Rot"},

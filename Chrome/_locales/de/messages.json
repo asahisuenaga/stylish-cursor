@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"Stylish Cursor - Benutzerdefinierter Cursor für Google Docs"},
+  "extension_name": {"message":"Benutzerdefinierter Cursor in Google Docs"},
   "extension_description": {"message":"Ersetze den Standard-Cursor durch einen eleganten und animierten Cursor!"},
-  "title": {"message":"Stylish Cursor"},
+  "title": {"message":"Benutzerdefinierter Cursor in Google Docs"},
   "ThicknessLabel": {"message":"Dicke"},
   "BlinkLabel": {"message":"Blinken"},
   "trueOption": {"message":"An"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"Wenn es nicht funktioniert, lade Google Docs neu."},
   "openDocsButton": {"message":"Google Docs öffnen"},
   "saveButton": {"message":"Speichern & Beenden"},
-  "maker": {"message":"Erstellt von Asahi Suenaga"},
+  "maker": {"message":"Erweiterung unterstützen"},
   "gradientDynamic": {"message":"Dynamisch"},
   "gradientRainbow": {"message":"Regenbogen"},
   "gradientRed": {"message":"Rot"},

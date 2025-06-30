@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"Štýlový kurzor - Prispôsobený kurzor pre Google Docs"},
+  "extension_name": {"message":"Vlastný kurzor v Google Docs"},
   "extension_description": {"message":"Zmeňte predvolený kurzor na elegantný a animovaný kurzor!"},
-  "title": {"message":"Štýlový kurzor"},
+  "title": {"message":"Vlastný kurzor v Google Docs"},
   "caretWidthLabel": {"message":"Šírka"},
   "BlinkLabel": {"message":"Hrúbka"},
   "trueOption": {"message":"Zapnuté"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"Ak to nefunguje, obnovte Google Docs."},
   "openDocsButton": {"message":"Otvoriť Google Docs"},
   "saveButton": {"message":"Uložiť a ukončiť"},
-  "maker": {"message":"Vytvorené Asahi Suenagom"},
+  "maker": {"message":"Podporte rozšírenie"},
   "gradientDynamic": {"message":"Dynamický"},
   "gradientRainbow": {"message":"Dúha"},
   "gradientRed": {"message":"Červený"},

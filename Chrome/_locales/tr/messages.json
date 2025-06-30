@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"Stylish Cursor - Google Docs için Özel İmleç"},
+  "extension_name": {"message":"Google Docs'ta özel imleç"},
   "extension_description": {"message":"Varsayılan imleci şık ve animasyonlu bir kare ile değiştirin!"},
-  "title": {"message":"Stylish Cursor"},
+  "title": {"message":"Google Docs'ta özel imleç"},
   "ThicknessLabel": {"message":"Kalınlık"},
   "BlinkLabel": {"message":"Yanıp Sönme"},
   "trueOption": {"message":"Açık"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"Çalışmıyorsa, Google Docs'u yeniden yükleyin."},
   "openDocsButton": {"message":"Google Docs'u Aç"},
   "saveButton": {"message":"Kaydet & Çık"},
-  "maker": {"message":"Yapan: Asahi Suenaga"},
+  "maker": {"message":"Eklentiyi destekle"},
   "gradientDynamic": {"message":"Dinamik"},
   "gradientRainbow": {"message":"Gökkuşağı"},
   "gradientRed": {"message":"Kırmızı"},

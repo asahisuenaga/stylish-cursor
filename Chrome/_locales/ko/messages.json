@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"Stylish Cursor - Google Docs용 커스텀 커서"},
+  "extension_name": {"message":"Google Docs용 커스텀 커서"},
   "extension_description": {"message":"기본 커서를 세련되고 애니메이션된 커서로 교체하세요!"},
-  "title": {"message":"Stylish Cursor"},
+  "title": {"message":"Google Docs용 커스텀 커서"},
   "ThicknessLabel": {"message":"두께"},
   "BlinkLabel": {"message":"깜빡임"},
   "trueOption": {"message":"켜기"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"작동하지 않으면 Google Docs를 다시 로드하세요."},
   "openDocsButton": {"message":"Google Docs 열기"},
   "saveButton": {"message":"저장 및 종료"},
-  "maker": {"message":"Asahi Suenaga 제작"},
+  "maker": {"message":"확장 프로그램 지원하기"},
   "gradientDynamic": {"message":"동적"},
   "gradientRainbow": {"message":"무지개"},
   "gradientRed": {"message":"빨강"},

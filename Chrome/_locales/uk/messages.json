@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"Stylish Cursor - Користувацький курсор для Google Docs"},
+  "extension_name": {"message":"Користувацький курсор у Google Docs"},
   "extension_description": {"message":"Замість стандартного курсора використовуйте стильний та анімований!"},
-  "title": {"message":"Stylish Cursor"},
+  "title": {"message":"Користувацький курсор у Google Docs"},
   "ThicknessLabel": {"message":"Товщина"},
   "BlinkLabel": {"message":"Мигання"},
   "trueOption": {"message":"Увімкнено"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"Якщо це не працює, перезавантажте Google Docs."},
   "openDocsButton": {"message":"Відкрити Google Docs"},
   "saveButton": {"message":"Зберегти та вийти"},
-  "maker": {"message":"Створено Асахі Суенагою"},
+  "maker": {"message":"Підтримати розширення"},
   "gradientDynamic": {"message":"Динамічний"},
   "gradientRainbow": {"message":"Райдужний"},
   "gradientRed": {"message":"Червоний"},

@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"Stylish Cursor - Custom Cursor for Google Docs"},
+  "extension_name": {"message":"Custom Cursor in Google Docs"},
   "extension_description": {"message":"Swap the default cursor with a sleek and animated caret!"},
-  "title": {"message":"Stylish Cursor"},
+  "title": {"message":"Custom Cursor in Google Docs"},
   "ThicknessLabel": {"message":"Thickness"},
   "BlinkLabel": {"message":"Blink"},
   "trueOption": {"message":"On"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"If it doesn't work, reload Google Docs."},
   "openDocsButton": {"message":"Open Google Docs"},
   "saveButton": {"message":"Save & Exit"},
-  "maker": {"message":"Made by Asahi Suenaga"},
+  "maker": {"message":"Support the Extension"},
   "gradientDynamic": {"message":"Dynamic"},
   "gradientRainbow": {"message":"Rainbow"},
   "gradientRed": {"message":"Red"},

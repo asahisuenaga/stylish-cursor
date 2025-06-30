@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"Stilingas kursorius - Pasirinktinis kursorius Google Docs"},
+  "extension_name": {"message":"Tinkintas žymeklis Google Docs"},
   "extension_description": {"message":"Pakeiskite numatytąjį kursorių į elegantišką ir animuotą karetą!"},
-  "title": {"message":"Stilingas kursorius"},
+  "title": {"message":"Tinkintas žymeklis Google Docs"},
   "caretWidthLabel": {"message":"Storis"},
   "BlinkLabel": {"message":"Mirksėjimas"},
   "trueOption": {"message":"Įjungta"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"Jei neveikia, atnaujinkite Google Docs."},
   "openDocsButton": {"message":"Atidaryti Google Docs"},
   "saveButton": {"message":"Išsaugoti ir išeiti"},
-  "maker": {"message":"Sukūrė Asahi Suenaga"},
+  "maker": {"message":"Palaikykite plėtinį"},
   "gradientDynamic": {"message":"Dinaminis"},
   "gradientRainbow": {"message":"Vaivorykštė"},
   "gradientRed": {"message":"Raudona"},

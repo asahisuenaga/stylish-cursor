@@ -11,7 +11,7 @@
   "infoMessage": {"message":"Jos se ei toimi, lataa Google Docs uudelleen."},
   "openDocsButton": {"message":"Avaa Google Docs"},
   "saveButton": {"message":"Tallenna ja Poistu"},
-  "maker": {"message":"Valmistaja Asahi Suenaga"},
+  "maker": {"message":"Tue laajennusta"},
   "gradientDynamic": {"message":"Dynaaminen"},
   "gradientRainbow": {"message":"Sateenkaari"},
   "gradientRed": {"message":"Punainen"},

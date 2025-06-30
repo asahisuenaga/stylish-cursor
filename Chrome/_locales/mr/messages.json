@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"स्टायलिश कर्सर - गूगल डॉक्ससाठी कस्टम कर्सर"},
+  "extension_name": {"message":"गूगल डॉक्ससाठी कस्टम कर्सर"},
   "extension_description": {"message":"डीफॉल्ट कर्सर बदलून एक स्टाइलिश आणि एनिमेटेड कॅरेटी वापरा!"},
-  "title": {"message":"स्टायलिश कर्सर"},
+  "title": {"message":"गूगल डॉक्ससाठी कस्टम कर्सर"},
   "caretWidthLabel": {"message":"जाडी"},
   "BlinkLabel": {"message":"ब्लिंक"},
   "trueOption": {"message":"ऑन"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"जर ते काम करत नसेल तर गूगल डॉक्स पुन्हा लोड करा."},
   "openDocsButton": {"message":"गूगल डॉक्स उघडा"},
   "saveButton": {"message":"जतन करा आणि बाहेर या"},
-  "maker": {"message":"असाही सुनेगा यांच्याकडून"},
+  "maker": {"message":"विस्ताराचे समर्थन करा"},
   "gradientDynamic": {"message":"डायनॅमिक"},
   "gradientRainbow": {"message":"रेनबो"},
   "gradientRed": {"message":"लाल"},

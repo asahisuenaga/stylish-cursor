@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"Kursor Bergaya - Kursor Kustom untuk Google Docs"},
+  "extension_name": {"message":"Kursor tersuai dalam Google Docs"},
   "extension_description": {"message":"Gantikan kursor lalai dengan kursor yang bergaya dan animasi!"},
-  "title": {"message":"Kursor Bergaya"},
+  "title": {"message":"Kursor tersuai dalam Google Docs"},
   "caretWidthLabel": {"message":"Ketebalan"},
   "BlinkLabel": {"message":"Kedip"},
   "trueOption": {"message":"Hidup"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"Jika tidak berfungsi, muat semula Google Docs."},
   "openDocsButton": {"message":"Buka Google Docs"},
   "saveButton": {"message":"Simpan & Keluar"},
-  "maker": {"message":"Dibuat oleh Asahi Suenaga"},
+  "maker": {"message":"Sokong sambungan ini"},
   "gradientDynamic": {"message":"Dinamik"},
   "gradientRainbow": {"message":"Pelangi"},
   "gradientRed": {"message":"Merah"},

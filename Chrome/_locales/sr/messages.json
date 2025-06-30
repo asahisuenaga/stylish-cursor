@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"Стилизовани курсор - Прилагођени курсор за Google Docs"},
+  "extension_name": {"message":"Прилагођени курсор у Google Docs"},
   "extension_description": {"message":"Замените подразумевани курсор са елегантним и анимираним курсором!"},
-  "title": {"message":"Стилизовани курсор"},
+  "title": {"message":"Прилагођени курсор у Google Docs"},
   "ThicknessLabel": {"message":"Дебљина"},
   "BlinkLabel": {"message":"Треперење"},
   "trueOption": {"message":"Укључено"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"Ако не ради, освежите Google Docs."},
   "openDocsButton": {"message":"Отворите Google Docs"},
   "saveButton": {"message":"Спреми и изађи"},
-  "maker": {"message":"Направљено од стране Asahi Suenage"},
+  "maker": {"message":"Подржите проширење"},
   "gradientDynamic": {"message":"Динамички"},
   "gradientRainbow": {"message":"Дугине боје"},
   "gradientRed": {"message":"Црвена"},

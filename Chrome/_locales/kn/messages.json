@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"ಸ್ಟೈಲಿಷ್ ಕರ್ಸರ್ - ಗೂಗಲ್ ಡಾಕ್ಸ್‌ನ ಕಸ್ಟಮ್ ಕರ್ಸರ್"},
+  "extension_name": {"message":"ಗೂಗಲ್ ಡಾಕ್ಸ್‌ನ ಕಸ್ಟಮ್ ಕರ್ಸರ್"},
   "extension_description": {"message":"ಡಿಫಾಲ್ಟ್ ಕರ್ಸರ್ ಅನ್ನು ಸುಂದರವಾದ ಮತ್ತು ಅನಿಮೇಟೆಡ್ ಕ್ಯಾರೆಟ್‌ಒಂದು ಕಸರತ್ತಿನೊಂದಿಗೆ ಬದಲಾಯಿಸಿ!"},
-  "title": {"message":"ಸ್ಟೈಲಿಷ್ ಕರ್ಸರ್"},
+  "title": {"message":"ಗೂಗಲ್ ಡಾಕ್ಸ್‌ನ ಕಸ್ಟಮ್ ಕರ್ಸರ್"},
   "caretWidthLabel": {"message":"ದಪ್ಪ"},
   "BlinkLabel": {"message":"ಹರಿದುಹೋಗಿ"},
   "trueOption": {"message":"ಆನ್"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"ಅದನ್ನು ಕೆಲಸ ಮಾಡದಿದ್ದರೆ, ಗೂಗಲ್ ಡಾಕ್ಸ್ ಅನ್ನು ಪುನಃ ಲೋಡ್ ಮಾಡಿ."},
   "openDocsButton": {"message":"ಗೂಗಲ್ ಡಾಕ್ಸ್ ತೆರೆದು"},
   "saveButton": {"message":"ಸೇವ್ ಮತ್ತು ಬಾಹ್ಯವಾಗಿರಿ"},
-  "maker": {"message":"ಅಸರಹಿ ಸುಯೆನಾಗಾ ಮಾಡಿದವು"},
+  "maker": {"message":"ವಿಸ್ತರಣೆಯನ್ನು ಬೆಂಬಲಿಸಿ"},
   "gradientDynamic": {"message":"ಡೈನಾಮಿಕ್"},
   "gradientRainbow": {"message":"ಹಕ್ಕು"},
   "gradientRed": {"message":"ಕೆಂಪು"},

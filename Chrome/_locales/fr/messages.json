@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"Stylish Cursor - Curseur Personnalisé pour Google Docs"},
+  "extension_name": {"message":"Curseur personnalisé dans Google Docs"},
   "extension_description": {"message":"Remplacez le curseur par défaut par un curseur élégant et animé !"},
-  "title": {"message":"Stylish Cursor"},
+  "title": {"message":"Curseur personnalisé dans Google Docs"},
   "ThicknessLabel": {"message":"Épaisseur"},
   "BlinkLabel": {"message":"Clignotement"},
   "trueOption": {"message":"Activé"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"Si cela ne fonctionne pas, rechargez Google Docs."},
   "openDocsButton": {"message":"Ouvrir Google Docs"},
   "saveButton": {"message":"Enregistrer et Quitter"},
-  "maker": {"message":"Créé par Asahi Suenaga"},
+  "maker": {"message":"Soutenir l'extension"},
   "gradientDynamic": {"message":"Dynamique"},
   "gradientRainbow": {"message":"Arc-en-ciel"},
   "gradientRed": {"message":"Rouge"},

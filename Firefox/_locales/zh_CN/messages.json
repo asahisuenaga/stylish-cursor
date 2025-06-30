@@ -11,7 +11,7 @@
   "infoMessage": {"message":"如果不工作，请重新加载 Google Docs。"},
   "openDocsButton": {"message":"打开 Google Docs"},
   "saveButton": {"message":"保存并退出"},
-  "maker": {"message":"由 Asahi Suenaga 制作"},
+  "maker": {"message":"支持此扩展程序"},
   "gradientDynamic": {"message":"动态"},
   "gradientRainbow": {"message":"彩虹"},
   "gradientRed": {"message":"红色"},

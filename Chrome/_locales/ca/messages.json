@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"Cursor Elegant - Cursor Personalitzat per a Google Docs"},
+  "extension_name": {"message":"Cursor personalitzat a Google Docs"},
   "extension_description": {"message":"Canvia el cursor per defecte per un cursor elegant i animat!"},
-  "title": {"message":"Cursor Elegant"},
+  "title": {"message":"Cursor personalitzat a Google Docs"},
   "caretWidthLabel": {"message":"Gruix"},
   "BlinkLabel": {"message":"Parpelleig"},
   "trueOption": {"message":"Activat"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"Si no funciona, torna a carregar Google Docs."},
   "openDocsButton": {"message":"Obre Google Docs"},
   "saveButton": {"message":"Desa i Sortir"},
-  "maker": {"message":"Fet per Asahi Suenaga"},
+  "maker": {"message":"Donar suport a l'extensió"},
   "gradientDynamic": {"message":"Dinàmic"},
   "gradientRainbow": {"message":"Arc de Sant Martí"},
   "gradientRed": {"message":"Vermell"},

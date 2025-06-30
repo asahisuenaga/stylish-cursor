@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"Stylish Cursor - Google Docs 自訂游標"},
+  "extension_name": {"message":"Google Docs自訂游標"},
   "extension_description": {"message":"將預設游標替換為優雅的動畫游標！"},
-  "title": {"message":"Stylish Cursor"},
+  "title": {"message":"Google Docs自訂游標"},
   "ThicknessLabel": {"message":"粗細"},
   "BlinkLabel": {"message":"閃爍"},
   "trueOption": {"message":"開啟"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"如果無法運作，請重新載入 Google Docs。"},
   "openDocsButton": {"message":"開啟 Google Docs"},
   "saveButton": {"message":"儲存並結束"},
-  "maker": {"message":"由 Asahi Suenaga 製作"},
+  "maker": {"message":"支持此擴充功能"},
   "gradientDynamic": {"message":"動態"},
   "gradientRainbow": {"message":"彩虹"},
   "gradientRed": {"message":"紅色"},

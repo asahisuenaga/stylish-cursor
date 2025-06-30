@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"Стилен курсор - Персонализиран курсор за Google Docs"},
+  "extension_name": {"message":"Персонализиран курсор в Google Docs"},
   "extension_description": {"message":"Заменете стандартния курсор със стилен и анимиран курсор!"},
-  "title": {"message":"Стилен курсор"},
+  "title": {"message":"Персонализиран курсор в Google Docs"},
   "caretWidthLabel": {"message":"дебелина"},
   "BlinkLabel": {"message":"Мигане"},
   "trueOption": {"message":"Включено"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"Ако не работи, презаредете Google Docs."},
   "openDocsButton": {"message":"Отвори Google Docs"},
   "saveButton": {"message":"Запази и изход"},
-  "maker": {"message":"Създадено от Asahi Suenaga"},
+  "maker": {"message":"Подкрепете разширението"},
   "gradientDynamic": {"message":"Динамичен"},
   "gradientRainbow": {"message":"Дъга"},
   "gradientRed": {"message":"Червен"},

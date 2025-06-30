@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"Stilni kazalec - Prilagojen kazalec za Google Docs"},
+  "extension_name": {"message":"Prilagojen kazalec v Google Docs"},
   "extension_description": {"message":"Zamenjajte privzeti kazalec z elegantnim in animiranim kazalcem!"},
-  "title": {"message":"Stilni kazalec"},
+  "title": {"message":"Prilagojen kazalec v Google Docs"},
   "caretWidthLabel": {"message":"Debelina"},
   "BlinkLabel": {"message":"Utripanje"},
   "trueOption": {"message":"Vklopljeno"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"Če ne deluje, osvežite Google Docs."},
   "openDocsButton": {"message":"Odpri Google Docs"},
   "saveButton": {"message":"Shrani in zapri"},
-  "maker": {"message":"Ustvaril Asahi Suenaga"},
+  "maker": {"message":"Podprite razširitev"},
   "gradientDynamic": {"message":"Dinamično"},
   "gradientRainbow": {"message":"Mavrica"},
   "gradientRed": {"message":"Rdeča"},

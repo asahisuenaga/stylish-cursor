@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"Tyylikäs Kurssori - Mukautettu Kurssori Google Docsille"},
+  "extension_name": {"message":"Mukautettu osoitin Google Docsissa"},
   "extension_description": {"message":"Vaihda oletuskurssori tyylikkääseen ja animoituun kursoriin!"},
-  "title": {"message":"Tyylikäs Kurssori"},
+  "title": {"message":"Mukautettu osoitin Google Docsissa"},
   "caretWidthLabel": {"message":"Paksuus"},
   "BlinkLabel": {"message":"Vilkkuminen"},
   "trueOption": {"message":"Päällä"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"Jos se ei toimi, lataa Google Docs uudelleen."},
   "openDocsButton": {"message":"Avaa Google Docs"},
   "saveButton": {"message":"Tallenna ja Poistu"},
-  "maker": {"message":"Valmistaja Asahi Suenaga"},
+  "maker": {"message":"Tue laajennusta"},
   "gradientDynamic": {"message":"Dynaaminen"},
   "gradientRainbow": {"message":"Sateenkaari"},
   "gradientRed": {"message":"Punainen"},

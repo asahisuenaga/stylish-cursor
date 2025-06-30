@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"Stilīgs kursoris - Pielāgots kursoris Google Docs"},
+  "extension_name": {"message":"Pielāgots kursors Google Docs"},
   "extension_description": {"message":"Nomainiet noklusējuma kursoru uz elegantu un animētu karetu!"},
-  "title": {"message":"Stilīgs kursoris"},
+  "title": {"message":"Pielāgots kursors Google Docs"},
   "caretWidthLabel": {"message":"Biezums"},
   "BlinkLabel": {"message":"Mirgošana"},
   "trueOption": {"message":"Ieslēgts"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"Ja tas nedarbojas, atsvaidziniet Google Docs."},
   "openDocsButton": {"message":"Atvērt Google Docs"},
   "saveButton": {"message":"Saglabāt un iziet"},
-  "maker": {"message":"Izveidoja Asahi Suenaga"},
+  "maker": {"message":"Atbalstīt paplašinājumu"},
   "gradientDynamic": {"message":"Dinamisks"},
   "gradientRainbow": {"message":"Varavīksne"},
   "gradientRed": {"message":"Sarkans"},

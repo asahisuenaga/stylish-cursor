@@ -11,7 +11,7 @@
   "infoMessage": {"message":"Se non funziona, ricarica Google Docs."},
   "openDocsButton": {"message":"Apri Google Docs"},
   "saveButton": {"message":"Salva ed Esci"},
-  "maker": {"message":"Creato da Asahi Suenaga"},
+  "maker": {"message":"Supporta l'estensione"},
   "gradientDynamic": {"message":"Dinamico"},
   "gradientRainbow": {"message":"Arcobaleno"},
   "gradientRed": {"message":"Rosso"},

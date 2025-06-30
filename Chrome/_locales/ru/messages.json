@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"Stylish Cursor - Пользовательский курсор для Google Docs"},
+  "extension_name": {"message":"Пользовательский курсор в Google Docs"},
   "extension_description": {"message":"Замените стандартный курсор на элегантный и анимированный курсор!"},
-  "title": {"message":"Stylish Cursor"},
+  "title": {"message":"Пользовательский курсор в Google Docs"},
   "ThicknessLabel": {"message":"Толщина"},
   "BlinkLabel": {"message":"Мигание"},
   "trueOption": {"message":"Включено"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"Если не работает, перезагрузите Google Docs."},
   "openDocsButton": {"message":"Открыть Google Docs"},
   "saveButton": {"message":"Сохранить и выйти"},
-  "maker": {"message":"Создано Asahi Suenaga"},
+  "maker": {"message":"Поддержать расширение"},
   "gradientDynamic": {"message":"Динамический"},
   "gradientRainbow": {"message":"Радуга"},
   "gradientRed": {"message":"Красный"},

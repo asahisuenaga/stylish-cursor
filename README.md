@@ -1,4 +1,4 @@
-#Custom Cursor in Google Docs™
+# Custom Cursor in Google Docs™
 
 Swap the default cursor in Google Docs™ with a sleek, animated caret! Great for 🎓 students, ✍️ writers, and anyone who wants a better editing experience. Add color 🌈, reduce eye strain 👀, and stay focused 🧠.
 

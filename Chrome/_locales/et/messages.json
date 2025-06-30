@@ -1,7 +1,7 @@
 {
-  "extension_name": {"message":"Stiilne Kursori - Kohandatud Kursori Google Docsile"},
+  "extension_name": {"message":"Kohandatud kursor Google Docsis"},
   "extension_description": {"message":"Vaheta vaikekursori stiilse ja animeeritud kursori vastu!"},
-  "title": {"message":"Stiilne Kursori"},
+  "title": {"message":"Kohandatud kursor Google Docsis"},
   "caretWidthLabel": {"message":"Paksus"},
   "BlinkLabel": {"message":"Kulina"},
   "trueOption": {"message":"Peal"},
@@ -11,7 +11,7 @@
   "infoMessage": {"message":"Kui see ei tööta, laadi Google Docs uuesti."},
   "openDocsButton": {"message":"Ava Google Docs"},
   "saveButton": {"message":"Salvesta ja Välju"},
-  "maker": {"message":"Loodud Asahi Suenaga"},
+  "maker": {"message":"Toeta laiendust"},
   "gradientDynamic": {"message":"Dünaamiline"},
   "gradientRainbow": {"message":"Vikerkaar"},
   "gradientRed": {"message":"Punane"},
