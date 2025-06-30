@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Cursor in Google Docs</title>
+
+  <!-- Include Inter font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS for styling -->
+  <style>
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  box-sizing: border-box;
+  background: linear-gradient(145deg, #f0f2f5, #ffffff);
+  color: #333;
+  text-align: center;
+  min-width: 400px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  backdrop-filter: blur(8px);
+}
+
+.header img {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.1));
+}
+
+.header h1 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  color: #333;
+  line-height: 1.2;
+}
+
+/* Options Container */
+.options-container label,
+label {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  color: #333;
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+/* Inputs & Selects */
+select, input[type="text"], button {
+  appearance: none;
+  background: linear-gradient(145deg, #e8e8e8, #ffffff);
+  border: 1px solid #d0d0d0;
+  padding: 10px;
+  border-radius: 12px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  width: 50%;
+  box-shadow: inset 1px 1px 3px rgba(255,255,255,0.6),
+              inset -1px -1px 3px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+select:hover, input[type="text"]:hover, button:hover {
+  background: #f7f7f7;
+}
+
+select:focus, input[type="text"]:focus, button:focus {
+  outline: none;
+  border-color: #4A90E2;
+  box-shadow: 0 0 6px rgba(74, 144, 226, 0.3);
+}
+
+/* Buttons */
+button {
+  background: linear-gradient(to top, #4A90E2, #6AB0F3);
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  box-shadow: 0 0 8px rgba(74, 144, 226, 0.4);
+  filter: brightness(1.05);
+}
+
+/* Save & Redirect Buttons */
+.save-button, .redirect-button {
+  padding: 14px 24px;
+  font-size: 14px;
+  border-radius: 30px;
+  width: 100%;
+  margin-bottom: 12px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(6px);
+  border: 2px solid #333;
+  color: #333;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.save-button:hover, .redirect-button:hover {
+  color: #4285F4;
+  border-color: #4285F4;
+  box-shadow: 0 0 10px rgba(66, 133, 244, 0.3);
+
+}
+
+/* Feedback & Show Love */
+.maker-button, .info-message{
+  width: 100%;
+  border: none;
+  background: transparent;
+  font-size: 12px;
+  color: #333;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  box-shadow: none;
+}
+
+.maker-button:hover {
+  text-decoration: underline;
+  color: #7aaef7;
+  box-shadow: none;
+  background:transparent;
+}
+
+/* DARK MODE */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: linear-gradient(145deg, #1b1b1b, #232323);
+    color: #f5f5f5;
+  }
+
+  .header h1 {
+    color: #f5f5f5;
+  }
+
+  .options-container label,
+  label {
+    color: #f5f5f5;
+  }
+
+  select, input[type="text"], button {
+    background: linear-gradient(145deg, #2c2c2c, #1a1a1a);
+    border: 1px solid #444;
+    color: #f5f5f5;
+    box-shadow: inset 1px 1px 3px rgba(255,255,255,0.05),
+                inset -1px -1px 3px rgba(0,0,0,0.4);
+  }
+
+  select:hover, input[type="text"]:hover, button:hover {
+    background-color: #333;
+  }
+
+  select:focus, input[type="text"]:focus, button:focus {
+    border-color: #4285F4;
+    box-shadow: 0 0 0 3px rgba(66, 133, 244, 0.4);
+  }
+
+  button {
+    background: linear-gradient(to top, #4285F4, #5f9df7);
+    color: #fff;
+  }
+
+  .save-button, .redirect-button {
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid #f5f5f5;
+    color: #f5f5f5;
+  }
+
+  .save-button:hover, .redirect-button:hover {
+    color: #4285F4;
+    border-color: #4285F4;
+  }
+
+  .maker-button, .info-message {
+    color: #f5f5f5;
+  }
+
+  .maker-button:hover {
+    color: #7aaef7;
+  }
+
+  #settingsLivePreviewLabel {
+    color: #f5f5f5 !important;
+  }
+  .live-caret-preview-box {
+    background: #232323;
+    border: 1.5px solid #444;
+  }
+  .dark-preview-bar {
+    background: #fff !important;
+  }
+}
+
+/* Custom Cursor Dropdown Styles */
+.cursor-style-section {
+  margin-bottom: 18px;
+}
+#cursorDropdownContainer {
+  position: relative;
+  width: 220px;
+  margin: 0 auto 8px auto;
+  font-family: 'Inter', sans-serif;
+}
+.cursor-dropdown-selected {
+  width: 200px;
+  box-sizing: border-box;
+  padding: 4px 10px;
+  min-height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(145deg, #e8e8e8, #ffffff);
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+  transition: border 0.2s;
+  position: relative;
+  overflow: visible;
+}
+.cursor-dropdown-selected.open {
+  border-color: #4A90E2;
+}
+.cursor-dropdown-arrow {
+  margin-left: 10px;
+  font-size: 8px;
+  color: #888;
+  transition: transform 0.2s;
+}
+.cursor-dropdown-selected.open .cursor-dropdown-arrow {
+  transform: rotate(180deg);
+}
+.cursor-dropdown-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  min-width: 200px;
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  z-index: 9999;
+  max-height: 220px;
+  overflow-y: auto;
+  padding: 4px 0;
+  display: none;
+  margin-top: 2px;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+.cursor-dropdown-list::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+.cursor-dropdown-list.open {
+  display: block;
+}
+.cursor-dropdown-option {
+  width: 100%;
+  min-width: 200px;
+  box-sizing: border-box;
+  padding: 5px 12px;
+  min-height: 28px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.18s;
+  border-radius: 8px;
+}
+.cursor-dropdown-option:hover, .cursor-dropdown-option.selected {
+  background: #f0f6ff;
+}
+.cursor-preview-box {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  margin-right: 12px;
+  background: #fafbfc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cursor-label {
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
+@media (prefers-color-scheme: dark) {
+  #cursorDropdownContainer {
+    background: none;
+  }
+  .cursor-dropdown-selected, .cursor-dropdown-list {
+    background: #232323;
+    border: 1px solid #444;
+    color: #f5f5f5;
+  }
+  .cursor-dropdown-option {
+    color: #f5f5f5;
+  }
+  .cursor-dropdown-option:hover, .cursor-dropdown-option.selected {
+    background: #2c3e50;
+  }
+  .cursor-preview-box {
+    background: #1b1b1b;
+    border: 1px solid #444;
+  }
+  .cursor-label {
+    color: #f5f5f5;
+  }
+}
+
+/* Custom Caret Preview Styles for Dropdowns */
+.caret-preview-box {
+  width: 24px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+}
+.caret-bar {
+  display: inline-block;
+  height: 24px;
+  background: #111;
+  border-radius: 2px;
+}
+.caret-blink {
+  animation: caret-blink 1s steps(1) infinite;
+}
+@keyframes caret-blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+.gradient-bar {
+  display: inline-block;
+  height: 24px;
+  border-radius: 2px;
+  width: 8px;
+}
+
+/* Live Preview Box Styles */
+#settingsLivePreviewLabel {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+.live-caret-preview-box {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f5f5;
+  border-radius: 8px;
+  border: 1.5px solid #ccc;
+  margin-bottom: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.live-caret-bar {
+  display: inline-block;
+  height: 48px;
+  background: #111;
+  border-radius: 3px;
+}
+.live-caret-blink {
+  animation: caret-blink 0.7s steps(1) infinite !important;
+}
+.live-gradient-bar {
+  display: inline-block;
+  height: 32px;
+  border-radius: 3px;
+  width: 8px;
+}
+@media (prefers-color-scheme: dark) {
+  #settingsLivePreviewLabel {
+    color: #f5f5f5 !important;
+  }
+  .live-caret-preview-box {
+    background: #232323;
+    border: 1.5px solid #444;
+  }
+  .dark-preview-bar {
+    background: #fff !important;
+  }
+}
+
+/* Add a class for the thick preview line */
+.live-preview-hr {
+  width: 100%;
+  border: none;
+  border-top: 4px solid #e9e9e9;
+  margin: 8px 0 16px 0;
+  border-radius: 100px;
+}
+
+.cursor-dropdown-selected,
+.cursor-dropdown-option {
+  font-size: 14px;
+}
+.maker-button {
+  font-size: 12px;
+}
+
+#thicknessDropdownContainer,
+#blinkDropdownContainer,
+#gradientDropdownContainer {
+  position: relative;
+  width: 200px;
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 0%; }
+  25% { background-position: 100% 0%; }
+  50% { background-position: 100% 100%; }
+  75% { background-position: 0% 100%; }
+  100% { background-position: 0% 0%; }
+}
+.live-gradient-animated {
+  background-size: 400% 400%!important;
+  animation: gradientAnimation 10s ease infinite!important;
+}
+  </style>
+</head>
+<body>
+  <!-- Header with icon and title -->
+  <div class="header">
+    <img src="icon128.png" alt="Icon">
+    <h1 id="title"></h1>
+  </div>
+
+  <!-- Content with caret width and checkbox options -->
+  <div class="content-container">
+    <div class="options-container" id="optionsContainer">
+      <label for="gradientStyle">
+        <span id="gradientLabel"></span>
+        <div id="gradientDropdownContainer"></div>
+      </label>
+
+    <label for="BlinkSelect">
+      <span id="BlinkLabel"></span>
+      <div id="blinkDropdownContainer"></div>
+    </label>
+
+    <label for="Thickness">
+      <span id="ThicknessLabel"></span>
+      <div id="thicknessDropdownContainer"></div>
+    </label>
+
+  </div>
+
+  <!-- Live Preview at the end of the settings panel -->
+  <div id="livePreviewSection" style="width:100%; display:none; margin-top: 16px;">
+    <hr class="live-preview-hr">
+    <div id="livePreviewRow" style="display: flex; align-items: center; justify-content: space-between; gap: 16px; width: 100%;">
+      <div id="settingsLivePreviewLabel" style="font-size: 14px; color: #333; font-weight: 500;">Live Preview</div>
+<style>@media (prefers-color-scheme: dark) { #settingsLivePreviewLabel { color: #f5f5f5 !important; } }</style>
+      <div id="settingsLivePreview" style="display: flex; align-items: center;"></div>
+    </div>
+  </div>
+
+  <!-- Info message -->
+  <div class="info-message" id="infoMessage">
+    <p id="infoMessageText"></p>
+  </div>
+
+  <!-- Redirect message and button for Google Docs -->
+  <div class="redirect-container" id="redirectContainer">
+    <button class="redirect-button" id="redirectButton">
+      <span id="openDocsButton"></span>
+    </button>
+  </div>
+<!-- Action buttons: Save, Show Some Love, and Feedback -->
+<div class="action-buttons">
+  <button class="save-button" id="saveButton"><span id="saveButton"></span></button>
+  <button class="maker-button" id="maker"><span id="maker"></span></button>
+</div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
