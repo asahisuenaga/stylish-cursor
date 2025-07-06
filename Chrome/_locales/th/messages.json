@@ -1,42 +1,108 @@
 {
-  "extension_name": {"message":"เคอร์เซอร์แบบกำหนดเองใน Google Docs"},
-  "extension_description": {"message":"เปลี่ยนเคอร์เซอร์เริ่มต้นเป็นเคอร์เซอร์ที่ทันสมัยและมีอนิเมชัน!"},
-  "title": {"message":"เคอร์เซอร์แบบกำหนดเองใน Google Docs"},
-  "ThicknessLabel": {"message":"ความหนา"},
-  "BlinkLabel": {"message":"กระพริบ"},
-  "trueOption": {"message":"เปิด"},
-  "falseOption": {"message":"ปิด"},
-  "gradientLabel": {"message":"เกรเดียนต์"},
-  "livePreviewLabel": {"message":"ดูตัวอย่างสด"},
-  "infoMessage": {"message":"หากไม่ทำงาน กรุณารีโหลด Google Docs."},
-  "openDocsButton": {"message":"เปิด Google Docs"},
-  "saveButton": {"message":"บันทึก & ออกจากระบบ"},
-  "maker": {"message":"สนับสนุนส่วนขยาย"},
-  "gradientDynamic": {"message":"ไดนามิก"},
-  "gradientRainbow": {"message":"รุ้ง"},
-  "gradientRed": {"message":"แดง"},
-  "gradientSnow": {"message":"หิมะ"},
-  "gradientOcean": {"message":"มหาสมุทร"},
-  "gradientForest": {"message":"ป่า"},
-  "gradientFire": {"message":"ไฟ"},
-  "gradientIce": {"message":"น้ำแข็ง"},
-  "gradientNeon": {"message":"นีออน"},
-  "gradientGold": {"message":"ทอง"},
-  "gradientSilver": {"message":"เงิน"},
-  "gradientTwilight": {"message":"พลบค่ำ"},
-  "gradientVintage": {"message":"วินเทจ"},
-  "gradientTropical": {"message":"เขตร้อน"},
-  "gradientFloral": {"message":"ดอกไม้"},
-  "gradientCandy": {"message":"ลูกกวาด"},
-  "notInDocsMessage": {"message":"คุณไม่ได้อยู่ใน Google Docs."},
-  "thankYouTitle": {"message":"Thank You! 🎉"},
-  "thankYouMessage1": {"message":"Thank you for downloading the Stylish Cursor extension! We hope you enjoy the enhanced typing experience."},
-  "thankYouMessage2": {"message":"Visit our GitHub repository to contribute, report issues, or suggest new features!"},
-  "visitGitHubButton": {"message":"Visit GitHub"},
-  "gotItButton": {"message":"Got it!"},
-  "ratingTitle": {"message":"Enjoying Stylish Cursor? ⭐"},
-  "ratingMessage1": {"message":"If you're enjoying the enhanced typing experience, please consider rating our extension on the Chrome Web Store!"},
-  "ratingMessage2": {"message":"Your feedback helps us improve and reach more users who would love this extension."},
-  "rateExtensionButton": {"message":"Rate Extension ⭐"},
-  "maybeLaterButton": {"message":"Maybe Later"}
+  "extension_name": {
+    "message": "เคอร์เซอร์แบบกำหนดเองใน Google Docs"
+  },
+  "extension_description": {
+    "message": "เปลี่ยนเคอร์เซอร์เริ่มต้นเป็นเคอร์เซอร์ที่ทันสมัยและมีอนิเมชัน!"
+  },
+  "title": {
+    "message": "เคอร์เซอร์แบบกำหนดเองใน Google Docs"
+  },
+  "ThicknessLabel": {
+    "message": "ความหนา"
+  },
+  "BlinkLabel": {
+    "message": "กระพริบ"
+  },
+  "trueOption": {
+    "message": "เปิด"
+  },
+  "falseOption": {
+    "message": "ปิด"
+  },
+  "gradientLabel": {
+    "message": "เกรเดียนต์"
+  },
+  "livePreviewLabel": {
+    "message": "ดูตัวอย่างสด"
+  },
+  "infoMessage": {
+    "message": "หากไม่ทำงาน กรุณารีโหลด Google Docs."
+  },
+  "openDocsButton": {
+    "message": "เปิด Google Docs"
+  },
+  "saveButton": {
+    "message": "บันทึก & ออกจากระบบ"
+  },
+  "maker": {
+    "message": "สนับสนุนส่วนขยาย"
+  },
+  "gradientDynamic": {
+    "message": "ไดนามิก"
+  },
+  "gradientRainbow": {
+    "message": "รุ้ง"
+  },
+  "gradientRed": {
+    "message": "แดง"
+  },
+  "gradientSnow": {
+    "message": "หิมะ"
+  },
+  "gradientOcean": {
+    "message": "มหาสมุทร"
+  },
+  "gradientForest": {
+    "message": "ป่า"
+  },
+  "gradientFire": {
+    "message": "ไฟ"
+  },
+  "gradientIce": {
+    "message": "น้ำแข็ง"
+  },
+  "gradientNeon": {
+    "message": "นีออน"
+  },
+  "gradientGold": {
+    "message": "ทอง"
+  },
+  "gradientSilver": {
+    "message": "เงิน"
+  },
+  "gradientTwilight": {
+    "message": "พลบค่ำ"
+  },
+  "gradientVintage": {
+    "message": "วินเทจ"
+  },
+  "gradientTropical": {
+    "message": "เขตร้อน"
+  },
+  "gradientFloral": {
+    "message": "ดอกไม้"
+  },
+  "gradientCandy": {
+    "message": "ลูกกวาด"
+  },
+  "notInDocsMessage": {
+    "message": "คุณไม่ได้อยู่ใน Google Docs."
+  },
+  "thankYouTitle": {
+    "message": "ขอบคุณสำหรับการดาวน์โหลด อ่านบันทึกประจำรุ่นได้ที่&nbsp;$githubLink$.",
+    "placeholders": {
+      "githubLink": {
+        "content": "<a href='https://github.com/asahisuenaga/ccgd' target='_blank'>Github</a>"
+      }
+    }
+  },
+  "ratingTitle": {
+    "message": "คุณชอบส่วนขยายนี้ไหม? ให้คะแนนได้ที่&nbsp;$chromeWebStoreLink$!",
+    "placeholders": {
+      "chromeWebStoreLink": {
+        "content": "<a href='https://chromewebstore.google.com/detail/custom-cursor-in-google-d/nnmghknojpihdnofejbocdcnmhibkfdc/' target='_blank'>Chrome Web Store</a>"
+      }
+    }
+  }
 }

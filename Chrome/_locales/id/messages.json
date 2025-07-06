@@ -1,42 +1,108 @@
 {
-  "extension_name": {"message":"Kursor kustom di Google Docs"},
-  "extension_description": {"message":"Ganti kursor default dengan kursor yang ramping dan animasi!"},
-  "title": {"message":"Kursor kustom di Google Docs"},
-  "caretWidthLabel": {"message":"Ketebalan"},
-  "BlinkLabel": {"message":"Kedip"},
-  "trueOption": {"message":"Aktif"},
-  "falseOption": {"message":"Matikan"},
-  "gradientLabel": {"message":"Gradien"},
-  "livePreviewLabel": {"message":"Pratinjau Langsung"},
-  "infoMessage": {"message":"Jika tidak bekerja, muat ulang Google Docs."},
-  "openDocsButton": {"message":"Buka Google Docs"},
-  "saveButton": {"message":"Simpan & Keluar"},
-  "maker": {"message":"Dukung ekstensi"},
-  "gradientDynamic": {"message":"Dinamis"},
-  "gradientRainbow": {"message":"Pelangi"},
-  "gradientRed": {"message":"Merah"},
-  "gradientSnow": {"message":"Salju"},
-  "gradientOcean": {"message":"Samudra"},
-  "gradientForest": {"message":"Hutan"},
-  "gradientFire": {"message":"Api"},
-  "gradientIce": {"message":"Es"},
-  "gradientNeon": {"message":"Neon"},
-  "gradientGold": {"message":"Emas"},
-  "gradientSilver": {"message":"Perak"},
-  "gradientTwilight": {"message":"Senja"},
-  "gradientVintage": {"message":"Vintage"},
-  "gradientTropical": {"message":"Tropis"},
-  "gradientFloral": {"message":"Floral"},
-  "gradientCandy": {"message":"Permen"},
-  "notInDocsMessage": {"message":"Anda tidak berada di Google Docs."},
-  "thankYouTitle": {"message":"Thank You! 🎉"},
-  "thankYouMessage1": {"message":"Thank you for downloading the Stylish Cursor extension! We hope you enjoy the enhanced typing experience."},
-  "thankYouMessage2": {"message":"Visit our GitHub repository to contribute, report issues, or suggest new features!"},
-  "visitGitHubButton": {"message":"Visit GitHub"},
-  "gotItButton": {"message":"Got it!"},
-  "ratingTitle": {"message":"Enjoying Stylish Cursor? ⭐"},
-  "ratingMessage1": {"message":"If you're enjoying the enhanced typing experience, please consider rating our extension on the Chrome Web Store!"},
-  "ratingMessage2": {"message":"Your feedback helps us improve and reach more users who would love this extension."},
-  "rateExtensionButton": {"message":"Rate Extension ⭐"},
-  "maybeLaterButton": {"message":"Maybe Later"}
+  "extension_name": {
+    "message": "Kursor kustom di Google Docs"
+  },
+  "extension_description": {
+    "message": "Ganti kursor default dengan kursor yang ramping dan animasi!"
+  },
+  "title": {
+    "message": "Kursor kustom di Google Docs"
+  },
+  "caretWidthLabel": {
+    "message": "Ketebalan"
+  },
+  "BlinkLabel": {
+    "message": "Kedip"
+  },
+  "trueOption": {
+    "message": "Aktif"
+  },
+  "falseOption": {
+    "message": "Matikan"
+  },
+  "gradientLabel": {
+    "message": "Gradien"
+  },
+  "livePreviewLabel": {
+    "message": "Pratinjau Langsung"
+  },
+  "infoMessage": {
+    "message": "Jika tidak bekerja, muat ulang Google Docs."
+  },
+  "openDocsButton": {
+    "message": "Buka Google Docs"
+  },
+  "saveButton": {
+    "message": "Simpan & Keluar"
+  },
+  "maker": {
+    "message": "Dukung ekstensi"
+  },
+  "gradientDynamic": {
+    "message": "Dinamis"
+  },
+  "gradientRainbow": {
+    "message": "Pelangi"
+  },
+  "gradientRed": {
+    "message": "Merah"
+  },
+  "gradientSnow": {
+    "message": "Salju"
+  },
+  "gradientOcean": {
+    "message": "Samudra"
+  },
+  "gradientForest": {
+    "message": "Hutan"
+  },
+  "gradientFire": {
+    "message": "Api"
+  },
+  "gradientIce": {
+    "message": "Es"
+  },
+  "gradientNeon": {
+    "message": "Neon"
+  },
+  "gradientGold": {
+    "message": "Emas"
+  },
+  "gradientSilver": {
+    "message": "Perak"
+  },
+  "gradientTwilight": {
+    "message": "Senja"
+  },
+  "gradientVintage": {
+    "message": "Vintage"
+  },
+  "gradientTropical": {
+    "message": "Tropis"
+  },
+  "gradientFloral": {
+    "message": "Floral"
+  },
+  "gradientCandy": {
+    "message": "Permen"
+  },
+  "notInDocsMessage": {
+    "message": "Anda tidak berada di Google Docs."
+  },
+  "thankYouTitle": {
+    "message": "Terima kasih telah mengunduh. Baca catatan rilis di&nbsp;$githubLink$.",
+    "placeholders": {
+      "githubLink": {
+        "content": "<a href='https://github.com/asahisuenaga/ccgd' target='_blank'>Github</a>"
+      }
+    }
+  },
+  "ratingTitle": {
+    "message": "Menikmati ekstensi ini? Nilai ekstensi di&nbsp;$chromeWebStoreLink$!",
+    "placeholders": {
+      "chromeWebStoreLink": {
+        "content": "<a href='https://chromewebstore.google.com/detail/custom-cursor-in-google-d/nnmghknojpihdnofejbocdcnmhibkfdc/' target='_blank'>Chrome Web Store</a>"
+      }
+    }
+  }
 }

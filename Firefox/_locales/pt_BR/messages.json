@@ -1,42 +1,108 @@
 {
-  "extension_name": {"message":"Cursor personalizado no Google Docs"},
-  "extension_description": {"message":"Substitua o cursor padrão por um cursor elegante e animado!"},
-  "title": {"message":"Cursor personalizado no Google Docs"},
-  "ThicknessLabel": {"message":"Espessura"},
-  "BlinkLabel": {"message":"Piscada"},
-  "trueOption": {"message":"Ligado"},
-  "falseOption": {"message":"Desligado"},
-  "gradientLabel": {"message":"Gradiente"},
-  "livePreviewLabel": {"message":"Visualização ao Vivo"},
-  "infoMessage": {"message":"Se não funcionar, recarregue o Google Docs."},
-  "openDocsButton": {"message":"Abrir Google Docs"},
-  "saveButton": {"message":"Salvar e Sair"},
-  "maker": {"message":"Apoiar a extensão"},
-  "gradientDynamic": {"message":"Dinâmico"},
-  "gradientRainbow": {"message":"Arco-íris"},
-  "gradientRed": {"message":"Vermelho"},
-  "gradientSnow": {"message":"Neve"},
-  "gradientOcean": {"message":"Oceano"},
-  "gradientForest": {"message":"Floresta"},
-  "gradientFire": {"message":"Fogo"},
-  "gradientIce": {"message":"Gelo"},
-  "gradientNeon": {"message":"Neon"},
-  "gradientGold": {"message":"Ouro"},
-  "gradientSilver": {"message":"Prata"},
-  "gradientTwilight": {"message":"Crepúsculo"},
-  "gradientVintage": {"message":"Vintage"},
-  "gradientTropical": {"message":"Tropical"},
-  "gradientFloral": {"message":"Floral"},
-  "gradientCandy": {"message":"Doce"},
-  "notInDocsMessage": {"message":"Você não está no Google Docs."},
-  "thankYouTitle": {"message":"Obrigado! 🎉"},
-  "thankYouMessage1": {"message":"Obrigado por baixar a extensão Stylish Cursor! Esperamos que você aproveite a experiência de digitação aprimorada."},
-  "thankYouMessage2": {"message":"Visite nosso repositório GitHub para contribuir, reportar problemas ou sugerir novos recursos!"},
-  "visitGitHubButton": {"message":"Visitar GitHub"},
-  "gotItButton": {"message":"Entendi!"},
-  "ratingTitle": {"message":"Gostando do Stylish Cursor? ⭐"},
-  "ratingMessage1": {"message":"Se você está gostando da experiência de digitação aprimorada, considere avaliar nossa extensão na Chrome Web Store!"},
-  "ratingMessage2": {"message":"Seu feedback nos ajuda a melhorar e alcançar mais usuários que adorariam esta extensão."},
-  "rateExtensionButton": {"message":"Avaliar Extensão ⭐"},
-  "maybeLaterButton": {"message":"Talvez Depois"}
+  "extension_name": {
+    "message": "Cursor personalizado no Google Docs"
+  },
+  "extension_description": {
+    "message": "Substitua o cursor padrão por um cursor elegante e animado!"
+  },
+  "title": {
+    "message": "Cursor personalizado no Google Docs"
+  },
+  "ThicknessLabel": {
+    "message": "Espessura"
+  },
+  "BlinkLabel": {
+    "message": "Piscada"
+  },
+  "trueOption": {
+    "message": "Ligado"
+  },
+  "falseOption": {
+    "message": "Desligado"
+  },
+  "gradientLabel": {
+    "message": "Gradiente"
+  },
+  "livePreviewLabel": {
+    "message": "Visualização ao Vivo"
+  },
+  "infoMessage": {
+    "message": "Se não funcionar, recarregue o Google Docs."
+  },
+  "openDocsButton": {
+    "message": "Abrir Google Docs"
+  },
+  "saveButton": {
+    "message": "Salvar e Sair"
+  },
+  "maker": {
+    "message": "Apoiar a extensão"
+  },
+  "gradientDynamic": {
+    "message": "Dinâmico"
+  },
+  "gradientRainbow": {
+    "message": "Arco-íris"
+  },
+  "gradientRed": {
+    "message": "Vermelho"
+  },
+  "gradientSnow": {
+    "message": "Neve"
+  },
+  "gradientOcean": {
+    "message": "Oceano"
+  },
+  "gradientForest": {
+    "message": "Floresta"
+  },
+  "gradientFire": {
+    "message": "Fogo"
+  },
+  "gradientIce": {
+    "message": "Gelo"
+  },
+  "gradientNeon": {
+    "message": "Neon"
+  },
+  "gradientGold": {
+    "message": "Ouro"
+  },
+  "gradientSilver": {
+    "message": "Prata"
+  },
+  "gradientTwilight": {
+    "message": "Crepúsculo"
+  },
+  "gradientVintage": {
+    "message": "Vintage"
+  },
+  "gradientTropical": {
+    "message": "Tropical"
+  },
+  "gradientFloral": {
+    "message": "Floral"
+  },
+  "gradientCandy": {
+    "message": "Doce"
+  },
+  "notInDocsMessage": {
+    "message": "Você não está no Google Docs."
+  },
+  "thankYouTitle": {
+    "message": "Obrigado por baixar. Leia as notas da versão em&nbsp;$githubLink$.",
+    "placeholders": {
+      "githubLink": {
+        "content": "<a href='https://github.com/asahisuenaga/ccgd' target='_blank'>Github</a>"
+      }
+    }
+  },
+  "ratingTitle": {
+    "message": "Está gostando da extensão? Avalie-a na&nbsp;$chromeWebStoreLink$!",
+    "placeholders": {
+      "chromeWebStoreLink": {
+        "content": "<a href='https://chromewebstore.google.com/detail/custom-cursor-in-google-d/nnmghknojpihdnofejbocdcnmhibkfdc/' target='_blank'>Chrome Web Store</a>"
+      }
+    }
+  }
 }

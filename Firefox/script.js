@@ -324,195 +324,179 @@ function applyCaretStyling() {
 // Apply caret styling when the script runs
 applyCaretStyling();
 
-// Overlay utility for thank you and rating overlays
-function createOverlay({ id, title, message1, message2, actions }) {
-    // Remove any existing overlay with the same id
+// === TOAST UTILITY ===
+function showToast({ id, message, actions }) {
+    // Remove any existing toast with the same id
     const old = document.getElementById(id);
     if (old) old.remove();
 
-    const overlay = document.createElement('div');
-    overlay.id = id;
-    overlay.setAttribute('role', 'dialog');
-    overlay.setAttribute('aria-modal', 'true');
-    overlay.tabIndex = -1;
-    overlay.style.cssText = `
-        position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
-        background: rgba(0,0,0,0.6); display: flex; align-items: center; justify-content: center;
-        z-index: 2147483647; font-family: 'Inter', sans-serif;
-    `;
-
-    // Inject popup CSS for consistent styling
-    if (!document.getElementById('stylish-cursor-popup-css')) {
-        const style = document.createElement('style');
-        style.id = 'stylish-cursor-popup-css';
-        style.textContent = `
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
-        .stylish-cursor-overlay-box {
-            background: linear-gradient(145deg, #f0f2f5, #ffffff);
-            color: #333;
-            border-radius: 16px;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.18);
-            max-width: 350px;
-            width: 90vw;
-            padding: 32px 24px;
-            text-align: center;
-            position: relative;
-            font-family: 'Inter', sans-serif;
-        }
-        .stylish-cursor-overlay-box h2 {
-            margin: 0 0 12px 0;
-            font-size: 14px;
-            font-weight: 600;
-            color: #333;
-        }
-        .stylish-cursor-overlay-box p {
-            margin: 0 0 12px 0;
-            font-size: 14px;
-            color: #333;
-        }
-        .stylish-cursor-overlay-actions {
+    // Create toast container if not present
+    let toastContainer = document.getElementById('stylish-cursor-toast-container');
+    if (!toastContainer) {
+        toastContainer = document.createElement('div');
+        toastContainer.id = 'stylish-cursor-toast-container';
+        toastContainer.style.cssText = `
+            position: fixed;
+            top: 32px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 2147483647;
             display: flex;
-            gap: 10px;
-            justify-content: center;
-            margin-top: 10px;
-        }
-        .stylish-cursor-overlay-box button, .stylish-cursor-overlay-box a {
-            appearance: none;
-            background: linear-gradient(145deg, #e8e8e8, #ffffff);
-            border: 1px solid #d0d0d0;
-            padding: 10px 18px;
-            border-radius: 12px;
-            font-family: 'Inter', sans-serif;
-            font-size: 14px;
-            color: #333;
-            cursor: pointer;
-            font-weight: 500;
-            text-decoration: none;
-            box-shadow: inset 1px 1px 3px rgba(255,255,255,0.6),
-                        inset -1px -1px 3px rgba(0,0,0,0.05);
-            transition: all 0.3s ease;
-        }
-        .stylish-cursor-overlay-box button.primary, .stylish-cursor-overlay-box a.primary {
-            background: linear-gradient(to top, #4A90E2, #6AB0F3);
-            color: #fff;
-            border: none;
-        }
-        .stylish-cursor-overlay-box button:hover, .stylish-cursor-overlay-box a:hover {
-            background: #f7f7f7;
-            filter: brightness(1.05);
-        }
-        .stylish-cursor-overlay-box button.primary:hover, .stylish-cursor-overlay-box a.primary:hover {
-            box-shadow: 0 0 8px rgba(74, 144, 226, 0.4);
-            background: linear-gradient(to top, #4285F4, #5f9df7);
-        }
-        @media (prefers-color-scheme: dark) {
-            .stylish-cursor-overlay-box {
-                background: linear-gradient(145deg, #1b1b1b, #232323);
-                color: #f5f5f5;
+            flex-direction: column;
+            gap: 12px;
+            align-items: center;
+            pointer-events: none;
+        `;
+        document.body.appendChild(toastContainer);
+    }
+
+    const toast = document.createElement('div');
+    toast.id = id;
+    toast.setAttribute('role', 'status');
+    toast.tabIndex = -1;
+    toast.style.cssText = `
+        background: linear-gradient(145deg, #f0f2f5, #ffffff);
+        color: #333;
+        border-radius: 12px;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+        min-width: 260px;
+        max-width: 700px;
+        padding: 12px 20px 12px 20px;
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        pointer-events: auto;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 16px;
+        animation: stylish-cursor-toast-in 0.3s ease;
+        white-space: nowrap;
+    `;
+    // Only show the message (no title)
+    if (message && message.trim() !== '') {
+        const textSpan = document.createElement('span');
+        textSpan.style.cssText = 'font-weight: 500; margin-right: 8px; display: flex; align-items: center; gap: 0px;';
+        textSpan.innerHTML = message; // Use innerHTML for clickable links
+        toast.appendChild(textSpan);
+    }
+
+    // Actions
+    if (actions && actions.length > 0) {
+        const actionsDiv = document.createElement('div');
+        actionsDiv.style.cssText = 'display: flex; gap: 8px; align-items: center;';
+        actions.forEach(({ label, onClick, href, primary }) => {
+            const btn = href
+                ? document.createElement('a')
+                : document.createElement('button');
+            btn.textContent = label;
+            btn.className = primary ? 'primary' : '';
+            btn.style.cssText = `
+                appearance: none;
+                background: linear-gradient(145deg, #e8e8e8, #ffffff);
+                border: 1px solid #d0d0d0;
+                padding: 4px 8px;
+                border-radius: 8px;
+                font-family: 'Inter', sans-serif;
+                font-size: 13px;
+                color: #333;
+                cursor: pointer;
+                font-weight: 500;
+                text-decoration: none;
+                margin: 0;
+                box-shadow: inset 1px 1px 3px rgba(255,255,255,0.6),
+                            inset -1px -1px 3px rgba(0,0,0,0.05);
+                transition: all 0.3s ease;
+                ${primary ? 'background: linear-gradient(to top, #4A90E2, #6AB0F3); color: #fff; border: none;' : ''}
+            `;
+            if (href) {
+                btn.href = href;
+                btn.target = '_blank';
+                btn.rel = 'noopener noreferrer';
+            } else {
+                btn.onclick = (e) => {
+                    e.stopPropagation();
+                    if (onClick) onClick();
+                    toast.remove();
+                };
             }
-            .stylish-cursor-overlay-box h2, .stylish-cursor-overlay-box p {
-                color: #f5f5f5;
-            }
-            .stylish-cursor-overlay-box button, .stylish-cursor-overlay-box a {
-                background: linear-gradient(145deg, #2c2c2c, #1a1a1a);
-                border: 1px solid #444;
-                color: #f5f5f5;
-            }
-            .stylish-cursor-overlay-box button.primary, .stylish-cursor-overlay-box a.primary {
-                background: linear-gradient(to top, #4285F4, #5f9df7);
-                color: #fff;
-            }
+            actionsDiv.appendChild(btn);
+        });
+        toast.appendChild(actionsDiv);
+    }
+
+    // Close button
+    const closeBtn = document.createElement('button');
+    closeBtn.innerHTML = '&times;';
+    closeBtn.setAttribute('aria-label', 'Close');
+    closeBtn.style.cssText = `
+        background: none;
+        border: none;
+        color: #888;
+        font-size: 18px;
+        cursor: pointer;
+        padding-bottom: 4px;
+        line-height: 1;
+        align-self: center;
+    `;
+    closeBtn.onclick = (e) => {
+        e.stopPropagation();
+        toast.remove();
+    };
+    toast.appendChild(closeBtn);
+
+    // Dark mode support
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        toast.style.background = 'linear-gradient(145deg, #1b1b1b, #232323)';
+        toast.style.color = '#f5f5f5';
+        closeBtn.style.color = '#bbb';
+    }
+
+    // Animation keyframes
+    if (!document.getElementById('stylish-cursor-toast-anim')) {
+        const style = document.createElement('style');
+        style.id = 'stylish-cursor-toast-anim';
+        style.textContent = `
+        @keyframes stylish-cursor-toast-in {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
         }
         `;
         document.head.appendChild(style);
     }
 
-    const box = document.createElement('div');
-    box.className = 'stylish-cursor-overlay-box';
-    box.innerHTML = `
-        <h2>${title}</h2>
-        <p>${message1}</p>
-        <p>${message2 || ''}</p>
-    `;
+    toastContainer.appendChild(toast);
 
-    const actionsDiv = document.createElement('div');
-    actionsDiv.className = 'stylish-cursor-overlay-actions';
-    actions.forEach(({ label, onClick, href, primary }) => {
-        const btn = href
-            ? document.createElement('a')
-            : document.createElement('button');
-        btn.textContent = label;
-        btn.className = primary ? 'primary' : '';
-        if (href) {
-            btn.href = href;
-            btn.target = '_blank';
-            btn.rel = 'noopener noreferrer';
-        } else {
-            btn.onclick = onClick;
-        }
-        actionsDiv.appendChild(btn);
-    });
-    box.appendChild(actionsDiv);
-    overlay.appendChild(box);
-
-    // Focus trap and ESC to close
-    overlay.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape') {
-            overlay.remove();
-        }
-    });
-    setTimeout(() => overlay.focus(), 0);
-
-    document.body.appendChild(overlay);
+    // Auto-dismiss after 10 seconds
+    setTimeout(() => {
+        toast.remove();
+    }, 10000);
 }
 
 function showThankYouOverlay() {
     if (localStorage.getItem('stylishCursorOverlayShown')) return;
-    createOverlay({
+    const githubLinkHTML = "<a href='https://github.com/asahisuenaga/ccgd' target='_blank'>Github</a>";
+    const thankYouMessage = chrome.i18n.getMessage('thankYouTitle', [githubLinkHTML]);
+    showToast({
         id: 'stylish-cursor-overlay',
-        title: chrome.i18n.getMessage('thankYouTitle'),
-        message1: chrome.i18n.getMessage('thankYouMessage1'),
-        message2: chrome.i18n.getMessage('thankYouMessage2'),
-        actions: [
-            {
-                label: chrome.i18n.getMessage('visitGitHubButton'),
-                href: 'https://github.com/asahisuenaga/stylish-cursor',
-                primary: true
-            },
-            {
-                label: chrome.i18n.getMessage('gotItButton'),
-                onClick: () => {
-                    localStorage.setItem('stylishCursorOverlayShown', 'true');
-                    document.getElementById('stylish-cursor-overlay').remove();
-                }
-            }
-        ]
+        message: thankYouMessage,
+        actions: []
     });
+    localStorage.setItem('stylishCursorOverlayShown', 'true');
 }
 
 function showRatingOverlay() {
     if (localStorage.getItem('stylishCursorRatingShown')) return;
     if (!window.location.href.includes('docs.google.com/document')) return;
-    createOverlay({
+    const chromeWebStoreLinkHTML = "<a href='https://chromewebstore.google.com/detail/custom-cursor-in-google-d/nnmghknojpihdnofejbocdcnmhibkfdc/reviews' target='_blank'>Chrome Web Store</a>";
+    const ratingMessage = chrome.i18n.getMessage('ratingTitle', [chromeWebStoreLinkHTML]);
+    showToast({
         id: 'stylish-cursor-rating-overlay',
-        title: chrome.i18n.getMessage('ratingTitle'),
-        message1: chrome.i18n.getMessage('ratingMessage1'),
-        message2: chrome.i18n.getMessage('ratingMessage2'),
-        actions: [
-            {
-                label: chrome.i18n.getMessage('rateExtensionButton'),
-                href: 'https://chromewebstore.google.com/detail/nnmghknojpihdnofejbocdcnmhibkfdc?utm_source=item-share-cb',
-                primary: true
-            },
-            {
-                label: chrome.i18n.getMessage('maybeLaterButton'),
-                onClick: () => {
-                    localStorage.setItem('stylishCursorRatingShown', 'true');
-                    document.getElementById('stylish-cursor-rating-overlay').remove();
-                }
-            }
-        ]
+        message: ratingMessage,
+        actions: []
     });
+    localStorage.setItem('stylishCursorRatingShown', 'true');
 }
 
 // Function to track time spent in Google Docs and schedule rating overlay

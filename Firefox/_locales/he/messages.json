@@ -1,42 +1,108 @@
 {
-  "extension_name": {"message":"סמן אופנתי - סמן מותאם אישית עבור Google Docs"},
-  "extension_description": {"message":"החלף את הסמן הבסיסי בסמן חלק ואנימטיבי!"},
-  "title": {"message":"סמן אופנתי"},
-  "caretWidthLabel": {"message":"עובי"},
-  "BlinkLabel": {"message":"הבהוב"},
-  "trueOption": {"message":"דולק"},
-  "falseOption": {"message":"כבוי"},
-  "gradientLabel": {"message":"גרדיאנט"},
-  "livePreviewLabel": {"message":"תצוגה חיובית בזמן אמת"},
-  "infoMessage": {"message":"אם זה לא עובד, טען מחדש את Google Docs."},
-  "openDocsButton": {"message":"פתח את Google Docs"},
-  "saveButton": {"message":"שמור וצא"},
-  "maker": {"message":"תמוך בהרחבה"},
-  "gradientDynamic": {"message":"דינמי"},
-  "gradientRainbow": {"message":"קשת"},
-  "gradientRed": {"message":"אדום"},
-  "gradientSnow": {"message":"שלג"},
-  "gradientOcean": {"message":"אוקיינוס"},
-  "gradientForest": {"message":"יער"},
-  "gradientFire": {"message":"אש"},
-  "gradientIce": {"message":"קרח"},
-  "gradientNeon": {"message":"ניאון"},
-  "gradientGold": {"message":"זהב"},
-  "gradientSilver": {"message":"כסף"},
-  "gradientTwilight": {"message":"דמדומים"},
-  "gradientVintage": {"message":"ווינטג'"},
-  "gradientTropical": {"message":"טרופי"},
-  "gradientFloral": {"message":"פרחוני"},
-  "gradientCandy": {"message":"ממתק"},
-  "notInDocsMessage": {"message":"אתה לא נמצא ב-Google Docs."},
-  "thankYouTitle": {"message":"Thank You! 🎉"},
-  "thankYouMessage1": {"message":"Thank you for downloading the Stylish Cursor extension! We hope you enjoy the enhanced typing experience."},
-  "thankYouMessage2": {"message":"Visit our GitHub repository to contribute, report issues, or suggest new features!"},
-  "visitGitHubButton": {"message":"Visit GitHub"},
-  "gotItButton": {"message":"Got it!"},
-  "ratingTitle": {"message":"Enjoying Stylish Cursor? ⭐"},
-  "ratingMessage1": {"message":"If you're enjoying the enhanced typing experience, please consider rating our extension on the Chrome Web Store!"},
-  "ratingMessage2": {"message":"Your feedback helps us improve and reach more users who would love this extension."},
-  "rateExtensionButton": {"message":"Rate Extension ⭐"},
-  "maybeLaterButton": {"message":"Maybe Later"}
+  "extension_name": {
+    "message": "סמן אופנתי - סמן מותאם אישית עבור Google Docs"
+  },
+  "extension_description": {
+    "message": "החלף את הסמן הבסיסי בסמן חלק ואנימטיבי!"
+  },
+  "title": {
+    "message": "סמן אופנתי"
+  },
+  "caretWidthLabel": {
+    "message": "עובי"
+  },
+  "BlinkLabel": {
+    "message": "הבהוב"
+  },
+  "trueOption": {
+    "message": "דולק"
+  },
+  "falseOption": {
+    "message": "כבוי"
+  },
+  "gradientLabel": {
+    "message": "גרדיאנט"
+  },
+  "livePreviewLabel": {
+    "message": "תצוגה חיובית בזמן אמת"
+  },
+  "infoMessage": {
+    "message": "אם זה לא עובד, טען מחדש את Google Docs."
+  },
+  "openDocsButton": {
+    "message": "פתח את Google Docs"
+  },
+  "saveButton": {
+    "message": "שמור וצא"
+  },
+  "maker": {
+    "message": "תמוך בהרחבה"
+  },
+  "gradientDynamic": {
+    "message": "דינמי"
+  },
+  "gradientRainbow": {
+    "message": "קשת"
+  },
+  "gradientRed": {
+    "message": "אדום"
+  },
+  "gradientSnow": {
+    "message": "שלג"
+  },
+  "gradientOcean": {
+    "message": "אוקיינוס"
+  },
+  "gradientForest": {
+    "message": "יער"
+  },
+  "gradientFire": {
+    "message": "אש"
+  },
+  "gradientIce": {
+    "message": "קרח"
+  },
+  "gradientNeon": {
+    "message": "ניאון"
+  },
+  "gradientGold": {
+    "message": "זהב"
+  },
+  "gradientSilver": {
+    "message": "כסף"
+  },
+  "gradientTwilight": {
+    "message": "דמדומים"
+  },
+  "gradientVintage": {
+    "message": "ווינטג'"
+  },
+  "gradientTropical": {
+    "message": "טרופי"
+  },
+  "gradientFloral": {
+    "message": "פרחוני"
+  },
+  "gradientCandy": {
+    "message": "ממתק"
+  },
+  "notInDocsMessage": {
+    "message": "אתה לא נמצא ב-Google Docs."
+  },
+  "thankYouTitle": {
+    "message": "תודה על ההורדה. קרא את פרטי הגרסה ב-$githubLink$.",
+    "placeholders": {
+      "githubLink": {
+        "content": "<a href='https://github.com/asahisuenaga/ccgd' target='_blank'>גיטהאב</a>"
+      }
+    }
+  },
+  "ratingTitle": {
+    "message": "נהנה מההרחבה? דרג אותה ב-$chromeWebStoreLink$!",
+    "placeholders": {
+      "chromeWebStoreLink": {
+        "content": "<a href='https://chromewebstore.google.com/detail/custom-cursor-in-google-d/nnmghknojpihdnofejbocdcnmhibkfdc/' target='_blank'>חנות האינטרנט של כרום</a>"
+      }
+    }
+  }
 }

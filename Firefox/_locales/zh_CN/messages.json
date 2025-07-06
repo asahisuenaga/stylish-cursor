@@ -1,42 +1,108 @@
 {
-  "extension_name": {"message":"Google Docs自定义光标"},
-  "extension_description": {"message":"将默认光标替换为优雅的动画光标！"},
-  "title": {"message":"Google Docs自定义光标"},
-  "ThicknessLabel": {"message":"粗细"},
-  "BlinkLabel": {"message":"闪烁"},
-  "trueOption": {"message":"开启"},
-  "falseOption": {"message":"关闭"},
-  "gradientLabel": {"message":"渐变"},
-  "livePreviewLabel": {"message":"实时预览"},
-  "infoMessage": {"message":"如果不工作，请重新加载 Google Docs。"},
-  "openDocsButton": {"message":"打开 Google Docs"},
-  "saveButton": {"message":"保存并退出"},
-  "maker": {"message":"支持此扩展程序"},
-  "gradientDynamic": {"message":"动态"},
-  "gradientRainbow": {"message":"彩虹"},
-  "gradientRed": {"message":"红色"},
-  "gradientSnow": {"message":"雪花"},
-  "gradientOcean": {"message":"海洋"},
-  "gradientForest": {"message":"森林"},
-  "gradientFire": {"message":"火焰"},
-  "gradientIce": {"message":"冰霜"},
-  "gradientNeon": {"message":"霓虹"},
-  "gradientGold": {"message":"金色"},
-  "gradientSilver": {"message":"银色"},
-  "gradientTwilight": {"message":"暮光"},
-  "gradientVintage": {"message":"复古"},
-  "gradientTropical": {"message":"热带"},
-  "gradientFloral": {"message":"花卉"},
-  "gradientCandy": {"message":"糖果"},
-  "notInDocsMessage": {"message":"您不在 Google Docs 中。"},
-  "thankYouTitle": {"message":"谢谢！🎉"},
-  "thankYouMessage1": {"message":"感谢您下载 Stylish Cursor 扩展！我们希望您享受增强的输入体验。"},
-  "thankYouMessage2": {"message":"访问我们的 GitHub 仓库来贡献代码、报告问题或建议新功能！"},
-  "visitGitHubButton": {"message":"访问 GitHub"},
-  "gotItButton": {"message":"知道了！"},
-  "ratingTitle": {"message":"喜欢 Stylish Cursor 吗？⭐"},
-  "ratingMessage1": {"message":"如果您享受增强的输入体验，请考虑在 Chrome 网上应用店为我们的扩展评分！"},
-  "ratingMessage2": {"message":"您的反馈帮助我们改进并接触到更多会喜欢这个扩展的用户。"},
-  "rateExtensionButton": {"message":"为扩展评分 ⭐"},
-  "maybeLaterButton": {"message":"稍后再说"}
+  "extension_name": {
+    "message": "Google Docs自定义光标"
+  },
+  "extension_description": {
+    "message": "将默认光标替换为优雅的动画光标！"
+  },
+  "title": {
+    "message": "Google Docs自定义光标"
+  },
+  "ThicknessLabel": {
+    "message": "粗细"
+  },
+  "BlinkLabel": {
+    "message": "闪烁"
+  },
+  "trueOption": {
+    "message": "开启"
+  },
+  "falseOption": {
+    "message": "关闭"
+  },
+  "gradientLabel": {
+    "message": "渐变"
+  },
+  "livePreviewLabel": {
+    "message": "实时预览"
+  },
+  "infoMessage": {
+    "message": "如果不工作，请重新加载 Google Docs。"
+  },
+  "openDocsButton": {
+    "message": "打开 Google Docs"
+  },
+  "saveButton": {
+    "message": "保存并退出"
+  },
+  "maker": {
+    "message": "支持此扩展程序"
+  },
+  "gradientDynamic": {
+    "message": "动态"
+  },
+  "gradientRainbow": {
+    "message": "彩虹"
+  },
+  "gradientRed": {
+    "message": "红色"
+  },
+  "gradientSnow": {
+    "message": "雪花"
+  },
+  "gradientOcean": {
+    "message": "海洋"
+  },
+  "gradientForest": {
+    "message": "森林"
+  },
+  "gradientFire": {
+    "message": "火焰"
+  },
+  "gradientIce": {
+    "message": "冰霜"
+  },
+  "gradientNeon": {
+    "message": "霓虹"
+  },
+  "gradientGold": {
+    "message": "金色"
+  },
+  "gradientSilver": {
+    "message": "银色"
+  },
+  "gradientTwilight": {
+    "message": "暮光"
+  },
+  "gradientVintage": {
+    "message": "复古"
+  },
+  "gradientTropical": {
+    "message": "热带"
+  },
+  "gradientFloral": {
+    "message": "花卉"
+  },
+  "gradientCandy": {
+    "message": "糖果"
+  },
+  "notInDocsMessage": {
+    "message": "您不在 Google Docs 中。"
+  },
+  "thankYouTitle": {
+    "message": "感谢下载。请在&nbsp;$githubLink$ 上阅读发布说明。",
+    "placeholders": {
+      "githubLink": {
+        "content": "<a href='https://github.com/asahisuenaga/ccgd' target='_blank'>Github</a>"
+      }
+    }
+  },
+  "ratingTitle": {
+    "message": "喜欢这个扩展程序吗？请在&nbsp;$chromeWebStoreLink$ 上进行评分！",
+    "placeholders": {
+      "chromeWebStoreLink": {
+        "content": "<a href='https://chromewebstore.google.com/detail/custom-cursor-in-google-d/nnmghknojpihdnofejbocdcnmhibkfdc/' target='_blank'>Chrome 网上应用店</a>"
+      }
+    }
+  }
 }

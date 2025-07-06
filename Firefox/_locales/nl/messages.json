@@ -1,42 +1,108 @@
 {
-  "extension_name": {"message":"Aangepaste cursor in Google Docs"},
-  "extension_description": {"message":"Vervang de standaard cursor door een elegante en geanimeerde cursor!"},
-  "title": {"message":"Aangepaste cursor in Google Docs"},
-  "caretWidthLabel": {"message":"Tykkelse"},
-  "BlinkLabel": {"message":"Knipperen"},
-  "trueOption": {"message":"Aan"},
-  "falseOption": {"message":"Uit"},
-  "gradientLabel": {"message":"Gradiënt"},
-  "livePreviewLabel": {"message":"Live voorbeeld"},
-  "infoMessage": {"message":"Als het niet werkt, herlaad Google Docs."},
-  "openDocsButton": {"message":"Open Google Docs"},
-  "saveButton": {"message":"Opslaan & Afsluiten"},
-  "maker": {"message":"Ondersteun de extensie"},
-  "gradientDynamic": {"message":"Dynamisch"},
-  "gradientRainbow": {"message":"Regenboog"},
-  "gradientRed": {"message":"Rood"},
-  "gradientSnow": {"message":"Sneeuw"},
-  "gradientOcean": {"message":"Oceaan"},
-  "gradientForest": {"message":"Woud"},
-  "gradientFire": {"message":"Vuur"},
-  "gradientIce": {"message":"IJs"},
-  "gradientNeon": {"message":"Neon"},
-  "gradientGold": {"message":"Goud"},
-  "gradientSilver": {"message":"Zilver"},
-  "gradientTwilight": {"message":"Schemering"},
-  "gradientVintage": {"message":"Vintage"},
-  "gradientTropical": {"message":"Tropisch"},
-  "gradientFloral": {"message":"Bloem"},
-  "gradientCandy": {"message":"Snoep"},
-  "notInDocsMessage": {"message":"Je zit niet in Google Docs."},
-  "thankYouTitle": {"message":"Bedankt! 🎉"},
-  "thankYouMessage1": {"message":"Bedankt voor het downloaden van de Stylish Cursor extensie! We hopen dat je geniet van de verbeterde typervaring."},
-  "thankYouMessage2": {"message":"Bezoek onze GitHub repository om bij te dragen, problemen te melden of nieuwe functies voor te stellen!"},
-  "visitGitHubButton": {"message":"GitHub bezoeken"},
-  "gotItButton": {"message":"Begrepen!"},
-  "ratingTitle": {"message":"Geniet je van Stylish Cursor? ⭐"},
-  "ratingMessage1": {"message":"Als je geniet van de verbeterde typervaring, overweeg dan om onze extensie te beoordelen in de Chrome Web Store!"},
-  "ratingMessage2": {"message":"Je feedback helpt ons te verbeteren en meer gebruikers te bereiken die deze extensie zouden waarderen."},
-  "rateExtensionButton": {"message":"Extensie beoordelen ⭐"},
-  "maybeLaterButton": {"message":"Misschien Later"}
+  "extension_name": {
+    "message": "Aangepaste cursor in Google Docs"
+  },
+  "extension_description": {
+    "message": "Vervang de standaard cursor door een elegante en geanimeerde cursor!"
+  },
+  "title": {
+    "message": "Aangepaste cursor in Google Docs"
+  },
+  "caretWidthLabel": {
+    "message": "Tykkelse"
+  },
+  "BlinkLabel": {
+    "message": "Knipperen"
+  },
+  "trueOption": {
+    "message": "Aan"
+  },
+  "falseOption": {
+    "message": "Uit"
+  },
+  "gradientLabel": {
+    "message": "Gradiënt"
+  },
+  "livePreviewLabel": {
+    "message": "Live voorbeeld"
+  },
+  "infoMessage": {
+    "message": "Als het niet werkt, herlaad Google Docs."
+  },
+  "openDocsButton": {
+    "message": "Open Google Docs"
+  },
+  "saveButton": {
+    "message": "Opslaan & Afsluiten"
+  },
+  "maker": {
+    "message": "Ondersteun de extensie"
+  },
+  "gradientDynamic": {
+    "message": "Dynamisch"
+  },
+  "gradientRainbow": {
+    "message": "Regenboog"
+  },
+  "gradientRed": {
+    "message": "Rood"
+  },
+  "gradientSnow": {
+    "message": "Sneeuw"
+  },
+  "gradientOcean": {
+    "message": "Oceaan"
+  },
+  "gradientForest": {
+    "message": "Woud"
+  },
+  "gradientFire": {
+    "message": "Vuur"
+  },
+  "gradientIce": {
+    "message": "IJs"
+  },
+  "gradientNeon": {
+    "message": "Neon"
+  },
+  "gradientGold": {
+    "message": "Goud"
+  },
+  "gradientSilver": {
+    "message": "Zilver"
+  },
+  "gradientTwilight": {
+    "message": "Schemering"
+  },
+  "gradientVintage": {
+    "message": "Vintage"
+  },
+  "gradientTropical": {
+    "message": "Tropisch"
+  },
+  "gradientFloral": {
+    "message": "Bloem"
+  },
+  "gradientCandy": {
+    "message": "Snoep"
+  },
+  "notInDocsMessage": {
+    "message": "Je zit niet in Google Docs."
+  },
+  "thankYouTitle": {
+    "message": "Bedankt voor het downloaden. Lees de release-opmerkingen op&nbsp;$githubLink$.",
+    "placeholders": {
+      "githubLink": {
+        "content": "<a href='https://github.com/asahisuenaga/ccgd' target='_blank'>Github</a>"
+      }
+    }
+  },
+  "ratingTitle": {
+    "message": "Geniet je van de extensie? Beoordeel de extensie op&nbsp;$chromeWebStoreLink$!",
+    "placeholders": {
+      "chromeWebStoreLink": {
+        "content": "<a href='https://chromewebstore.google.com/detail/custom-cursor-in-google-d/nnmghknojpihdnofejbocdcnmhibkfdc/' target='_blank'>Chrome Web Store</a>"
+      }
+    }
+  }
 }

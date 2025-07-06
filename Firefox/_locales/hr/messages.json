@@ -1,42 +1,108 @@
 {
-  "extension_name": {"message":"Prilagođeni kursor u Google Docs"},
-  "extension_description": {"message":"Zamijenite zadani kursor s elegantnim i animiranim pokazivačem!"},
-  "title": {"message":"Prilagođeni kursor u Google Docs"},
-  "caretWidthLabel": {"message":"Debljina"},
-  "BlinkLabel": {"message":"Treperenje"},
-  "trueOption": {"message":"Uključeno"},
-  "falseOption": {"message":"Isključeno"},
-  "gradientLabel": {"message":"Gradient"},
-  "livePreviewLabel": {"message":"Prikaz uživo"},
-  "infoMessage": {"message":"Ako ne radi, ponovo učitaj Google Docs."},
-  "openDocsButton": {"message":"Otvorite Google Docs"},
-  "saveButton": {"message":"Spremi i izađi"},
-  "maker": {"message":"Podržite proširenje"},
-  "gradientDynamic": {"message":"Dinamično"},
-  "gradientRainbow": {"message":"Dugina"},
-  "gradientRed": {"message":"Crveno"},
-  "gradientSnow": {"message":"Snijeg"},
-  "gradientOcean": {"message":"Okean"},
-  "gradientForest": {"message":"Šuma"},
-  "gradientFire": {"message":"Vatra"},
-  "gradientIce": {"message":"Led"},
-  "gradientNeon": {"message":"Neon"},
-  "gradientGold": {"message":"Zlato"},
-  "gradientSilver": {"message":"Srebro"},
-  "gradientTwilight": {"message":"Sumrak"},
-  "gradientVintage": {"message":"Vintage"},
-  "gradientTropical": {"message":"Tropski"},
-  "gradientFloral": {"message":"Cvjetni"},
-  "gradientCandy": {"message":"Bomboni"},
-  "notInDocsMessage": {"message":"Niste u Google Docs."},
-  "thankYouTitle": {"message":"Thank You! 🎉"},
-  "thankYouMessage1": {"message":"Thank you for downloading the Stylish Cursor extension! We hope you enjoy the enhanced typing experience."},
-  "thankYouMessage2": {"message":"Visit our GitHub repository to contribute, report issues, or suggest new features!"},
-  "visitGitHubButton": {"message":"Visit GitHub"},
-  "gotItButton": {"message":"Got it!"},
-  "ratingTitle": {"message":"Enjoying Stylish Cursor? ⭐"},
-  "ratingMessage1": {"message":"If you're enjoying the enhanced typing experience, please consider rating our extension on the Chrome Web Store!"},
-  "ratingMessage2": {"message":"Your feedback helps us improve and reach more users who would love this extension."},
-  "rateExtensionButton": {"message":"Rate Extension ⭐"},
-  "maybeLaterButton": {"message":"Maybe Later"}
+  "extension_name": {
+    "message": "Prilagođeni kursor u Google Docs"
+  },
+  "extension_description": {
+    "message": "Zamijenite zadani kursor s elegantnim i animiranim pokazivačem!"
+  },
+  "title": {
+    "message": "Prilagođeni kursor u Google Docs"
+  },
+  "caretWidthLabel": {
+    "message": "Debljina"
+  },
+  "BlinkLabel": {
+    "message": "Treperenje"
+  },
+  "trueOption": {
+    "message": "Uključeno"
+  },
+  "falseOption": {
+    "message": "Isključeno"
+  },
+  "gradientLabel": {
+    "message": "Gradient"
+  },
+  "livePreviewLabel": {
+    "message": "Prikaz uživo"
+  },
+  "infoMessage": {
+    "message": "Ako ne radi, ponovo učitaj Google Docs."
+  },
+  "openDocsButton": {
+    "message": "Otvorite Google Docs"
+  },
+  "saveButton": {
+    "message": "Spremi i izađi"
+  },
+  "maker": {
+    "message": "Podržite proširenje"
+  },
+  "gradientDynamic": {
+    "message": "Dinamično"
+  },
+  "gradientRainbow": {
+    "message": "Dugina"
+  },
+  "gradientRed": {
+    "message": "Crveno"
+  },
+  "gradientSnow": {
+    "message": "Snijeg"
+  },
+  "gradientOcean": {
+    "message": "Okean"
+  },
+  "gradientForest": {
+    "message": "Šuma"
+  },
+  "gradientFire": {
+    "message": "Vatra"
+  },
+  "gradientIce": {
+    "message": "Led"
+  },
+  "gradientNeon": {
+    "message": "Neon"
+  },
+  "gradientGold": {
+    "message": "Zlato"
+  },
+  "gradientSilver": {
+    "message": "Srebro"
+  },
+  "gradientTwilight": {
+    "message": "Sumrak"
+  },
+  "gradientVintage": {
+    "message": "Vintage"
+  },
+  "gradientTropical": {
+    "message": "Tropski"
+  },
+  "gradientFloral": {
+    "message": "Cvjetni"
+  },
+  "gradientCandy": {
+    "message": "Bomboni"
+  },
+  "notInDocsMessage": {
+    "message": "Niste u Google Docs."
+  },
+  "thankYouTitle": {
+    "message": "Hvala na preuzimanju. Pročitajte napomene o izdanju na&nbsp;$githubLink$.",
+    "placeholders": {
+      "githubLink": {
+        "content": "<a href='https://github.com/asahisuenaga/ccgd' target='_blank'>Github</a>"
+      }
+    }
+  },
+  "ratingTitle": {
+    "message": "Uživate u proširenju? Ocijenite proširenje na&nbsp;$chromeWebStoreLink$!",
+    "placeholders": {
+      "chromeWebStoreLink": {
+        "content": "<a href='https://chromewebstore.google.com/detail/custom-cursor-in-google-d/nnmghknojpihdnofejbocdcnmhibkfdc/' target='_blank'>Chromeova web trgovina</a>"
+      }
+    }
+  }
 }

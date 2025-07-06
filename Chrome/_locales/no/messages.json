@@ -1,42 +1,108 @@
 {
-  "extension_name": {"message":"Egendefinert markør i Google Docs"},
-  "extension_description": {"message":"Bytt ut standardkursoren med en elegant og animert markør!"},
-  "title": {"message":"Egendefinert markør i Google Docs"},
-  "caretWidthLabel": {"message":"Dikte"},
-  "BlinkLabel": {"message":"Blink"},
-  "trueOption": {"message":"På"},
-  "falseOption": {"message":"Av"},
-  "gradientLabel": {"message":"Gradient"},
-  "livePreviewLabel": {"message":"Live forhåndsvisning"},
-  "infoMessage": {"message":"Hvis det ikke fungerer, last inn Google Docs på nytt."},
-  "openDocsButton": {"message":"Åpne Google Docs"},
-  "saveButton": {"message":"Lagre & Avslutt"},
-  "maker": {"message":"Støtt utvidelsen"},
-  "gradientDynamic": {"message":"Dynamisk"},
-  "gradientRainbow": {"message":"Regnbue"},
-  "gradientRed": {"message":"Rød"},
-  "gradientSnow": {"message":"Snø"},
-  "gradientOcean": {"message":"Hav"},
-  "gradientForest": {"message":"Skog"},
-  "gradientFire": {"message":"Ild"},
-  "gradientIce": {"message":"Is"},
-  "gradientNeon": {"message":"Neon"},
-  "gradientGold": {"message":"Gull"},
-  "gradientSilver": {"message":"Sølv"},
-  "gradientTwilight": {"message":"Dusk"},
-  "gradientVintage": {"message":"Vintage"},
-  "gradientTropical": {"message":"Tropisk"},
-  "gradientFloral": {"message":"Blomster"},
-  "gradientCandy": {"message":"Godteri"},
-  "notInDocsMessage": {"message":"Du er ikke i Google Docs."},
-  "thankYouTitle": {"message":"Takk! 🎉"},
-  "thankYouMessage1": {"message":"Takk for at du lastet ned Stylish Cursor-utvidelsen! Vi håper du nyter den forbedrede skriveopplevelsen."},
-  "thankYouMessage2": {"message":"Besøk vårt GitHub-repository for å bidra, rapportere problemer eller foreslå nye funksjoner!"},
-  "visitGitHubButton": {"message":"Besøk GitHub"},
-  "gotItButton": {"message":"Forstått!"},
-  "ratingTitle": {"message":"Liker du Stylish Cursor? ⭐"},
-  "ratingMessage1": {"message":"Hvis du nyter den forbedrede skriveopplevelsen, vurder å vurdere vår utvidelse i Chrome Web Store!"},
-  "ratingMessage2": {"message":"Din tilbakemelding hjelper oss å forbedre og nå flere brukere som ville elske denne utvidelsen."},
-  "rateExtensionButton": {"message":"Vurder Utvidelse ⭐"},
-  "maybeLaterButton": {"message":"Kanskje Senere"}
+  "extension_name": {
+    "message": "Egendefinert markør i Google Docs"
+  },
+  "extension_description": {
+    "message": "Bytt ut standardkursoren med en elegant og animert markør!"
+  },
+  "title": {
+    "message": "Egendefinert markør i Google Docs"
+  },
+  "caretWidthLabel": {
+    "message": "Dikte"
+  },
+  "BlinkLabel": {
+    "message": "Blink"
+  },
+  "trueOption": {
+    "message": "På"
+  },
+  "falseOption": {
+    "message": "Av"
+  },
+  "gradientLabel": {
+    "message": "Gradient"
+  },
+  "livePreviewLabel": {
+    "message": "Live forhåndsvisning"
+  },
+  "infoMessage": {
+    "message": "Hvis det ikke fungerer, last inn Google Docs på nytt."
+  },
+  "openDocsButton": {
+    "message": "Åpne Google Docs"
+  },
+  "saveButton": {
+    "message": "Lagre & Avslutt"
+  },
+  "maker": {
+    "message": "Støtt utvidelsen"
+  },
+  "gradientDynamic": {
+    "message": "Dynamisk"
+  },
+  "gradientRainbow": {
+    "message": "Regnbue"
+  },
+  "gradientRed": {
+    "message": "Rød"
+  },
+  "gradientSnow": {
+    "message": "Snø"
+  },
+  "gradientOcean": {
+    "message": "Hav"
+  },
+  "gradientForest": {
+    "message": "Skog"
+  },
+  "gradientFire": {
+    "message": "Ild"
+  },
+  "gradientIce": {
+    "message": "Is"
+  },
+  "gradientNeon": {
+    "message": "Neon"
+  },
+  "gradientGold": {
+    "message": "Gull"
+  },
+  "gradientSilver": {
+    "message": "Sølv"
+  },
+  "gradientTwilight": {
+    "message": "Dusk"
+  },
+  "gradientVintage": {
+    "message": "Vintage"
+  },
+  "gradientTropical": {
+    "message": "Tropisk"
+  },
+  "gradientFloral": {
+    "message": "Blomster"
+  },
+  "gradientCandy": {
+    "message": "Godteri"
+  },
+  "notInDocsMessage": {
+    "message": "Du er ikke i Google Docs."
+  },
+  "thankYouTitle": {
+    "message": "Takk for nedlastingen. Les utgivelsesnotatene på&nbsp;$githubLink$.",
+    "placeholders": {
+      "githubLink": {
+        "content": "<a href='https://github.com/asahisuenaga/ccgd' target='_blank'>Github</a>"
+      }
+    }
+  },
+  "ratingTitle": {
+    "message": "Liker du utvidelsen? Gi den en vurdering på&nbsp;$chromeWebStoreLink$!",
+    "placeholders": {
+      "chromeWebStoreLink": {
+        "content": "<a href='https://chromewebstore.google.com/detail/custom-cursor-in-google-d/nnmghknojpihdnofejbocdcnmhibkfdc/' target='_blank'>Chrome Web Store</a>"
+      }
+    }
+  }
 }

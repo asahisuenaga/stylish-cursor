@@ -1,42 +1,108 @@
 {
-  "extension_name": {"message":"સ્ટાઇલિશ કર્સર - ગૂગલ ડોક્સ માટે કસ્ટમ કર્સર"},
-  "extension_description": {"message":"ડિફોલ્ટ કર્સરને એક સ્મૂથ અને એનિમેટેડ કૅરેટથી બદલો!"},
-  "title": {"message":"સ્ટાઇલિશ કર્સર"},
-  "caretWidthLabel": {"message":"જાડાઈ"},
-  "BlinkLabel": {"message":"ઝપકન"},
-  "trueOption": {"message":"ઓન"},
-  "falseOption": {"message":"ઑફ"},
-  "gradientLabel": {"message":"ગ્રેડિએન્ટ"},
-  "livePreviewLabel": {"message":"લાઇવ પૂર્વદર્શન"},
-  "infoMessage": {"message":"જો આ કાર્ય કરી રહ્યો નથી, તો ગૂગલ ડોક્સને ફરીથી રિલોડ કરો."},
-  "openDocsButton": {"message":"ગૂગલ ડોક્સ ખોલો"},
-  "saveButton": {"message":"સાચવો અને બહાર જાઓ"},
-  "maker": {"message":"એક્સટેન્શનને સપોર્ટ કરો"},
-  "gradientDynamic": {"message":"ડાયનામિક"},
-  "gradientRainbow": {"message":"રેઇનબોઓ"},
-  "gradientRed": {"message":"લાલ"},
-  "gradientSnow": {"message":"હિમ"},
-  "gradientOcean": {"message":"સમુદ્ર"},
-  "gradientForest": {"message":"જંગલ"},
-  "gradientFire": {"message":"આગ"},
-  "gradientIce": {"message":"બરફ"},
-  "gradientNeon": {"message":"નીઓન"},
-  "gradientGold": {"message":"સોનુ"},
-  "gradientSilver": {"message":"ચાંદી"},
-  "gradientTwilight": {"message":"સાંજ"},
-  "gradientVintage": {"message":"વિન્ટેજ"},
-  "gradientTropical": {"message":"ત્રોપિકલ"},
-  "gradientFloral": {"message":"ફૂલ"},
-  "gradientCandy": {"message":"કંદી"},
-  "notInDocsMessage": {"message":"તમે ગૂગલ ડોક્સમાં નથી."},
-  "thankYouTitle": {"message":"Thank You! 🎉"},
-  "thankYouMessage1": {"message":"Thank you for downloading the Stylish Cursor extension! We hope you enjoy the enhanced typing experience."},
-  "thankYouMessage2": {"message":"Visit our GitHub repository to contribute, report issues, or suggest new features!"},
-  "visitGitHubButton": {"message":"Visit GitHub"},
-  "gotItButton": {"message":"Got it!"},
-  "ratingTitle": {"message":"Enjoying Stylish Cursor? ⭐"},
-  "ratingMessage1": {"message":"If you're enjoying the enhanced typing experience, please consider rating our extension on the Chrome Web Store!"},
-  "ratingMessage2": {"message":"Your feedback helps us improve and reach more users who would love this extension."},
-  "rateExtensionButton": {"message":"Rate Extension ⭐"},
-  "maybeLaterButton": {"message":"Maybe Later"}
+  "extension_name": {
+    "message": "સ્ટાઇલિશ કર્સર - ગૂગલ ડોક્સ માટે કસ્ટમ કર્સર"
+  },
+  "extension_description": {
+    "message": "ડિફોલ્ટ કર્સરને એક સ્મૂથ અને એનિમેટેડ કૅરેટથી બદલો!"
+  },
+  "title": {
+    "message": "સ્ટાઇલિશ કર્સર"
+  },
+  "caretWidthLabel": {
+    "message": "જાડાઈ"
+  },
+  "BlinkLabel": {
+    "message": "ઝપકન"
+  },
+  "trueOption": {
+    "message": "ઓન"
+  },
+  "falseOption": {
+    "message": "ઑફ"
+  },
+  "gradientLabel": {
+    "message": "ગ્રેડિએન્ટ"
+  },
+  "livePreviewLabel": {
+    "message": "લાઇવ પૂર્વદર્શન"
+  },
+  "infoMessage": {
+    "message": "જો આ કાર્ય કરી રહ્યો નથી, તો ગૂગલ ડોક્સને ફરીથી રિલોડ કરો."
+  },
+  "openDocsButton": {
+    "message": "ગૂગલ ડોક્સ ખોલો"
+  },
+  "saveButton": {
+    "message": "સાચવો અને બહાર જાઓ"
+  },
+  "maker": {
+    "message": "એક્સટેન્શનને સપોર્ટ કરો"
+  },
+  "gradientDynamic": {
+    "message": "ડાયનામિક"
+  },
+  "gradientRainbow": {
+    "message": "રેઇનબોઓ"
+  },
+  "gradientRed": {
+    "message": "લાલ"
+  },
+  "gradientSnow": {
+    "message": "હિમ"
+  },
+  "gradientOcean": {
+    "message": "સમુદ્ર"
+  },
+  "gradientForest": {
+    "message": "જંગલ"
+  },
+  "gradientFire": {
+    "message": "આગ"
+  },
+  "gradientIce": {
+    "message": "બરફ"
+  },
+  "gradientNeon": {
+    "message": "નીઓન"
+  },
+  "gradientGold": {
+    "message": "સોનુ"
+  },
+  "gradientSilver": {
+    "message": "ચાંદી"
+  },
+  "gradientTwilight": {
+    "message": "સાંજ"
+  },
+  "gradientVintage": {
+    "message": "વિન્ટેજ"
+  },
+  "gradientTropical": {
+    "message": "ત્રોપિકલ"
+  },
+  "gradientFloral": {
+    "message": "ફૂલ"
+  },
+  "gradientCandy": {
+    "message": "કંદી"
+  },
+  "notInDocsMessage": {
+    "message": "તમે ગૂગલ ડોક્સમાં નથી."
+  },
+  "thankYouTitle": {
+    "message": "ડાઉનલોડ કરવા બદલ આભાર. રિલીઝ નોંધો&nbsp;$githubLink$ પર વાંચો.",
+    "placeholders": {
+      "githubLink": {
+        "content": "<a href='https://github.com/asahisuenaga/ccgd' target='_blank'>Github</a>"
+      }
+    }
+  },
+  "ratingTitle": {
+    "message": "એક્સટેન્શન પસંદ આવી રહ્યું છે? તેને&nbsp;$chromeWebStoreLink$ પર રેટ કરો!",
+    "placeholders": {
+      "chromeWebStoreLink": {
+        "content": "<a href='https://chromewebstore.google.com/detail/custom-cursor-in-google-d/nnmghknojpihdnofejbocdcnmhibkfdc/' target='_blank'>Chrome Web Store</a>"
+      }
+    }
+  }
 }
