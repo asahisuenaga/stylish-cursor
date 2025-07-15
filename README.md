@@ -11,7 +11,7 @@ Swap the default cursor in Google Docs™ with a sleek, animated caret! Great fo
 
 1. Open Google Docs™.
 2. Click the icon in your Chrome toolbar.
-3. Customize your cursor settings and enjoy!
+3. Customize the cursor to your style and enjoy!
 
 ## 🚀 Installation
 
